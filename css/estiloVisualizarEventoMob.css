@@ -1,0 +1,423 @@
+@media(max-width:480px){
+	html, body{
+		margin:0;
+		padding:0;
+		background:#fff;
+	}
+
+	#quadro{
+		display:none;
+	}
+
+	#back{
+		/*Altura e largura do botão*/
+		width: 10vw;
+		height:10vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#contentEvent{
+		font-size:5vw;
+		width:auto;
+		margin-top:30vw;
+	}
+
+	h2{
+		font-size:9vw;
+	}
+
+	.zoom img {
+		max-width: 80vw;
+		-moz-transition: none;
+		-webkit-transition: none;
+		transition: none;
+
+		width:80vw;
+		height:50vw;
+	}
+
+	.zoom:hover img {
+		-moz-transform: none;
+		-webkit-transform: none;
+		transform: none;
+	}
+
+	input[type=button]{
+		height:10vw;
+		width:30vw;
+		
+		transition:none;
+
+		background:#104E8B;
+		color:#FFF;
+
+		margin-top:5vw;
+
+		font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+		font-size:5vw;
+	}
+
+	input[type=button]:hover{
+		background:#104E8B;
+		color:#FFF;
+	}
+
+	input[type=button]#exc{
+		background:#CD0000;
+		color:#FFF;
+	}
+
+	input[type=button]#exc:hover{
+		background:#CD0000;
+		color:#FFF;
+	}
+
+	input[type=text]{
+		font-size:5vw;
+
+		width:50vw;
+		height:10vw;
+
+		border-radius:1vw 0vw 0vw 1vw;
+
+		transition:none;
+	}
+
+	input[type=text]:focus{
+		background:#9C9C9C;
+	}
+
+	button{
+		font-size:5vw;
+		height:10vw;
+		
+		transition:none;
+
+		border-radius:0vw 1vw 1vw 0vw;
+	}
+
+	button:hover{
+		background:black;
+	}
+
+	input[type=submit]#btnCalcilar{
+		font-size:5vw;
+		height:10vw;
+		width:auto;
+		padding-right:1vw;
+		padding-left:1vw;
+
+		transition:none;
+		cursor:pointer;
+
+		border-radius:0vw 1vw 1vw 0vw;
+	}
+
+	input[type=submit]#btnCalcilar:hover{
+		background:black;
+	}
+
+	.msgScreen{
+		width:89vw;
+		height:20vw;
+		font-size:6vw;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+	html, body{
+		margin:0;
+		padding:0;
+		background:#fff;
+	}
+
+	#quadro{
+		display:none;
+	}
+
+	#back{
+		/*Altura e largura do botão*/
+		width: 10vw;
+		height:10vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#contentEvent{
+		font-size:3vw;
+		width:auto;
+		margin-top:60vw;
+	}
+
+	h2{
+		font-size:5vw;
+	}
+
+	.zoom img {
+		max-width: 60vw;
+		-moz-transition: none;
+		-webkit-transition: none;
+		transition: none;
+
+		width:60vw;
+		height:30vw;
+	}
+
+	.zoom:hover img {
+		-moz-transform: none;
+		-webkit-transform: none;
+		transform: none;
+	}
+
+	input[type=button]{
+		height:10vw;
+		width:30vw;
+		
+		transition:none;
+
+		background:#104E8B;
+		color:#FFF;
+
+		margin-top:5vw;
+
+		font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+		font-size:3vw;
+	}
+
+	input[type=button]:hover{
+		background:#104E8B;
+		color:#FFF;
+	}
+
+	input[type=button]#exc{
+		background:#CD0000;
+		color:#FFF;
+	}
+
+	input[type=button]#exc:hover{
+		background:#CD0000;
+		color:#FFF;
+	}
+
+	input[type=text]{
+		font-size:3vw;
+
+		width:50vw;
+		height:10vw;
+
+		border-radius:1vw 0vw 0vw 1vw;
+
+		transition:none;
+	}
+
+	input[type=text]:focus{
+		background:#9C9C9C;
+	}
+
+	button{
+		font-size:3vw;
+		height:10vw;
+		
+		transition:none;
+
+		border-radius:0vw 1vw 1vw 0vw;
+	}
+
+	button:hover{
+		background:black;
+	}
+
+	input[type=submit]#btnCalcilar{
+		font-size:3vw;
+		height:10vw;
+		width:auto;
+		padding-right:1vw;
+		padding-left:1vw;
+
+		transition:none;
+		cursor:pointer;
+
+		border-radius:0vw 1vw 1vw 0vw;
+	}
+
+	input[type=submit]#btnCalcilar:hover{
+		background:black;
+	}
+
+	.msgScreen{
+		width:60vw;
+		height:10vw;
+		font-size:5vw;
+	}
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5){
+  	html, body{
+		margin:0;
+		padding:0;
+		background:#fff;
+	}
+
+	#quadro{
+		display:none;
+	}
+
+	#back{
+		/*Altura e largura do botão*/
+		width: 14vw;
+		height:14vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#contentEvent{
+		font-size:5vw;
+		width:auto;
+		margin-top:50vw;
+	}
+
+	h2{
+		font-size:9vw;
+	}
+
+	.zoom img {
+		max-width: 80vw;
+		-moz-transition: none;
+		-webkit-transition: none;
+		transition: none;
+
+		width:80vw;
+		height:50vw;
+	}
+
+	.zoom:hover img {
+		-moz-transform: none;
+		-webkit-transform: none;
+		transform: none;
+	}
+
+	input[type=button]{
+		height:10vw;
+		width:30vw;
+		
+		transition:none;
+
+		background:#104E8B;
+		color:#FFF;
+
+		margin-top:5vw;
+
+		font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+		font-size:5vw;
+	}
+
+	input[type=button]:hover{
+		background:#104E8B;
+		color:#FFF;
+	}
+
+	input[type=button]#exc{
+		background:#CD0000;
+		color:#FFF;
+	}
+
+	input[type=button]#exc:hover{
+		background:#CD0000;
+		color:#FFF;
+	}
+
+	input[type=text]{
+		font-size:5vw;
+
+		width:50vw;
+		height:10vw;
+
+		border-radius:1vw 0vw 0vw 1vw;
+
+		transition:none;
+	}
+
+	input[type=text]:focus{
+		background:#9C9C9C;
+	}
+
+	button{
+		font-size:5vw;
+		height:10vw;
+		
+		transition:none;
+
+		border-radius:0vw 1vw 1vw 0vw;
+	}
+
+	button:hover{
+		background:black;
+	}
+
+	input[type=submit]#btnCalcilar{
+		font-size:5vw;
+		height:10vw;
+		width:auto;
+		padding-right:1vw;
+		padding-left:1vw;
+
+		transition:none;
+		cursor:pointer;
+
+		border-radius:0vw 1vw 1vw 0vw;
+	}
+
+	input[type=submit]#btnCalcilar:hover{
+		background:black;
+	}
+
+	.msgScreen{
+		width:89vw;
+		height:20vw;
+		font-size:6vw;
+	}
+}

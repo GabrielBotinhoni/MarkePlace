@@ -1,0 +1,232 @@
+@media(max-width:480px){
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 16vw;
+		height:16vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 0.50vw;
+		margin-top: 1vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+		width:89vw;
+		height:120vw;
+		border-radius:0.70vw;
+	}
+
+	#contentAll{
+		width:85vw;
+	}
+
+	#contentAll h2{
+		font-size:7vw;
+		margin-left:11vw;
+	}
+
+	#contentAll img{
+		width:8vw;
+
+		margin-left:63.20vw;
+		margin-top:-14.90vw;
+	}
+
+	#contentAll form table td{
+		font-size:5vw;
+	}
+
+	#contentAll form table td input[type=text], #contentAll form table td input[type=email]{
+		height:7vw;
+		width:60vw;
+		font-size:5vw;
+		border-radius: 0.70vw;
+		border: #000 solid 0.20vw;
+		transition: none;
+	}
+
+	#contentAll input[type=submit]{
+		font-size:5vw;
+		border-radius:0.70vw;
+		height:10vw;
+		width:60vw;
+		margin-top:5vw;
+		transition: none;
+	}
+
+	#contentAll input[type=submit]:hover{
+		background:rgb(139, 0, 0);
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 11vw;
+		height:11vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 1vw;
+		margin-top: -0.40vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+		width:81vw;
+		height:60vw;
+		border-radius:0.70vw;
+	}
+
+	#contentAll{
+		width:85vw;
+	}
+
+	#contentAll h2{
+		font-size:5vw;
+		margin-left:23vw;
+	}
+
+	#contentAll img{
+		width:8vw;
+
+		margin-left:63.20vw;
+		margin-top:-12.50vw;
+	}
+
+	#contentAll form table td{
+		font-size:3vw;
+	}
+
+	#contentAll form table td input[type=text], #contentAll form table td input[type=email]{
+		height:5vw;
+		width:50vw;
+		font-size:3vw;
+		border-radius: 0.70vw;
+		border: #000 solid 0.20vw;
+		transition: none;
+	}
+
+	#contentAll input[type=submit]{
+		font-size:3vw;
+		border-radius:0.70vw;
+		height:5vw;
+		width:50vw;
+		margin-top:5vw;
+		transition: none;
+	}
+
+	#contentAll input[type=submit]:hover{
+		background:rgb(139, 0, 0);
+	}
+
+	table{
+		margin-left:10vw;
+	}
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5){
+  	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 16vw;
+		height:16vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 0.50vw;
+		margin-top: 0vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+		width:89vw;
+		height:120vw;
+		border-radius:0.70vw;
+	}
+
+	#contentAll{
+		width:85vw;
+	}
+
+	#contentAll h2{
+		font-size:7vw;
+		margin-left:11vw;
+	}
+
+	#contentAll img{
+		width:8vw;
+
+		margin-left:63.20vw;
+		margin-top:-14.90vw;
+	}
+
+	#contentAll form table td{
+		font-size:5vw;
+	}
+
+	#contentAll form table td input[type=text], #contentAll form table td input[type=email]{
+		height:7vw;
+		width:60vw;
+		font-size:5vw;
+		border-radius: 0.70vw;
+		border: #000 solid 0.20vw;
+		transition: none;
+	}
+
+	#contentAll input[type=submit]{
+		font-size:5vw;
+		border-radius:0.70vw;
+		height:10vw;
+		width:60vw;
+		margin-top:5vw;
+		transition: none;
+	}
+
+	#contentAll input[type=submit]:hover{
+		background:rgb(139, 0, 0);
+	}
+}

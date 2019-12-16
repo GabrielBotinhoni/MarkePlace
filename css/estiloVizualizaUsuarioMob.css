@@ -1,0 +1,120 @@
+@media(max-width:480px){
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 16vw;
+		height:16vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 0.50vw;
+		margin-top: 0vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+		width:89vw;
+		height:120vw;
+
+		border-radius:0.70vw;
+	}
+
+	#contentAll{
+		position:absolute;
+
+		top:52%;
+		left:50%;
+		transform: translate(-50%,-50%);
+	}
+
+	#contentAll h2{
+		font-size:7vw;
+	}
+
+	#contentAll table td{
+		font-size:4vw;
+	}
+
+	#contentAll p{
+		font-size:4vw;
+	}
+
+	#contentAll form p{
+		font-size:4vw;
+	}
+
+	#contentAll a button{
+		border:none;
+		border-radius:0.70vw;
+
+		font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+		font-size:4vw;
+
+		width:50vw;
+		height:7vw;
+
+		cursor:pointer;
+
+		transition: .3s;
+
+		background:#104E8B;
+		color: #fff;
+	}
+
+	#contentAll a button:hover{
+		background:#1874CD;
+	}
+
+	div#nomeArquivo{
+	    width: 50vw;
+	    height:7vw;
+	    border-radius:0.30vw;
+	}
+
+	div#nomeArquivo img{
+	    float:right;
+	    width:6vw;
+	}
+
+	div#nomeArquivo input[type=file]{
+	    position: absolute;
+	    right:5px;
+	    width:40px;
+	    height:40px;
+
+	    opacity:0;
+	}
+
+	#contentAll form input[type=submit]{
+		border-radius:0.70vw;
+		font-size:4vw;
+
+		width: 50vw;
+	    height:10vw;
+		transition: none;
+	}
+
+	#contentAll form input[type=submit]:hover{
+		background:#8B0000;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px){}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5){}

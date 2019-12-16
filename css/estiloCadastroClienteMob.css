@@ -1,0 +1,289 @@
+@media(max-width:480px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	#quadro{
+		/*Cor de fundo*/
+		background:#121219;
+
+		/*Tamanho da div*/
+		width: 92vw;
+		height:110vw;
+
+	    /*Borda arredontada*/
+	    border-radius:1vw;
+
+	    margin-top:6vw;
+	}
+
+	#tituloCadCli{
+		/*Tamanho do titulo (Cadastro de Clientes)*/
+		font-size: 8vw;
+
+		margin-top: 1vw;
+	}
+
+	#containerCentro{
+		margin-top:7vw;
+	}
+
+	#FormContent{
+		margin-top:-4vw;
+	}
+
+	.sumirMob{
+		display:none;
+	}
+
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  		color: #363636;
+	}
+
+	#msgContent{
+		width: 60vw;
+		height: 6vw;
+		background: black;
+
+		line-height: 6vw;
+
+		font-size: 3.50vw;
+
+		color: #fff;
+	}
+
+	td input[type=text], td input[type=email], td input[type=number]{
+		/*Tamanho dos inputs*/
+		height: 9vw;
+		width: 83vw;
+
+		font-size: 5vw;
+		
+		/*Tempo de transição*/
+		transition: none;
+
+		/*Espaço dentro do input*/
+		padding:0.1vw;
+
+		text-align:center;
+	}
+
+	select{
+
+		/*Configurações de espaço*/
+		height: 9vw;
+		width: 83vw;
+
+		font-size: 5vw;
+
+		text-align-last: center;
+
+	}
+
+	td input[type=submit]{
+		/*Tamanho dos inputs*/
+		height: 11vw;
+		width: 83vw;
+
+		font-size: 5vw;
+
+		/*Tipo de cursor*/
+		cursor: normal;
+	}
+}
+
+
+@media (min-width: 481px) and (max-width: 767px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	#quadro{
+		/*Cor de fundo*/
+		background:#121219;
+
+		/*Tamanho da div*/
+		width: 80vw;
+		height:70vw;
+
+	    /*Borda arredontada*/
+	    border-radius:1vw;
+
+	    margin-top:6vw;
+	}
+
+	#tituloCadCli{
+		/*Tamanho do titulo (Cadastro de Clientes)*/
+		font-size: 5vw;
+
+		margin-top: 10vw;
+	}
+
+	#containerCentro{
+		margin-top:7vw;
+	}
+
+	#FormContent{
+		margin-top:-4vw;
+	}
+
+	.sumirMob{
+		display:none;
+	}
+
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  		color: #363636;
+	}
+
+	#msgContent{
+		width: 60vw;
+		height: 6vw;
+		background: black;
+
+		line-height: 6vw;
+
+		font-size: 3vw;
+
+		color: #fff;
+	}
+
+	td input[type=text], td input[type=email], td input[type=number]{
+		/*Tamanho dos inputs*/
+		height: 5vw;
+		width: 60vw;
+
+		font-size: 3vw;
+		
+		/*Tempo de transição*/
+		transition: none;
+
+		/*Espaço dentro do input*/
+		padding:0.1vw;
+
+		text-align:center;
+	}
+
+	select{
+
+		/*Configurações de espaço*/
+		height: 5vw;
+		width: 60vw;
+
+		font-size: 3vw;
+
+		text-align-last: center;
+
+	}
+
+	td input[type=submit]{
+		/*Tamanho dos inputs*/
+		height: 5vw;
+		width: 60vw;
+
+		font-size: 3vw;
+
+		/*Tipo de cursor*/
+		cursor: normal;
+	}
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+  	body{
+		margin:0;
+		padding:0;
+	}
+
+	#quadro{
+		/*Cor de fundo*/
+		background:#121219;
+
+		/*Tamanho da div*/
+		width: 89vw;
+		height:110vw;
+
+	    /*Borda arredontada*/
+	    border-radius:1vw;
+
+	    margin-top:6vw;
+	}
+
+	#tituloCadCli{
+		/*Tamanho do titulo (Cadastro de Clientes)*/
+		font-size: 6vw;
+
+		margin-top: 1vw;
+	}
+
+	#containerCentro{
+		margin-top:7vw;
+	}
+
+	#FormContent{
+		margin-top:-4vw;
+	}
+
+	.sumirMob{
+		display:none;
+	}
+
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  		color: #363636;
+	}
+
+	#msgContent{
+		width: 60vw;
+		height: 6vw;
+		background: black;
+
+		line-height: 6vw;
+
+		font-size: 3vw;
+
+		color: #fff;
+	}
+
+	td input[type=text], td input[type=email], td input[type=number]{
+		/*Tamanho dos inputs*/
+		height: 9vw;
+		width: 80vw;
+
+		font-size: 4vw;
+		
+		/*Tempo de transição*/
+		transition: none;
+
+		/*Espaço dentro do input*/
+		padding:0.1vw;
+
+		text-align:center;
+	}
+
+	select{
+
+		/*Configurações de espaço*/
+		height: 9vw;
+		width: 80vw;
+
+		font-size: 4vw;
+
+		text-align-last: center;
+
+	}
+
+	td input[type=submit]{
+		/*Tamanho dos inputs*/
+		height: 11vw;
+		width: 80vw;
+
+		font-size: 4vw;
+
+		/*Tipo de cursor*/
+		cursor: normal;
+	}
+  }

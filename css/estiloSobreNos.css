@@ -1,0 +1,200 @@
+body{
+	/*Zerando configuração de margem e padding*/
+	margin: 0;
+	padding:0;
+
+	background: url("../img/sobreNos/background.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+}
+
+.menuHome{
+	/*Posição do menu*/
+	position: fixed;
+
+	/*Configurações de altura e largura do menu*/
+	width: 100%;
+	height: 4.5vw;
+
+	/*Cor da div*/
+	background: black;
+
+	/*Maior prioridade para aparecer na frente de outras divs*/
+	z-index: 100;
+
+	/*Sombra*/
+	box-shadow: 0 0 2vw #000;
+}
+
+#menuMob{
+	display:none;
+}
+
+.menuHome img{
+	margin-top:0.30vw;
+	margin-left:2vw;
+	width: auto;
+	height:3.80vw;
+	position: absolute;
+}
+
+/*Conteudo (links e btns) do menu*/
+#contentLink{
+	/*Dimensões máximas*/
+	max-width: 93%;
+	max-height: 100%;
+
+	/*Tipo de posição*/
+	position:absolute;
+
+	/*Forma como os links se comportam*/
+	display: inline;
+
+	/*Conteúdo à direita*/
+	margin-left:53%;
+
+	margin-top:0.75vw;
+}
+
+a{
+	/*Configurações de fonte dos links*/
+	text-decoration: none;
+	font-size: 1.2vw;
+	color: #F0FFFF;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+}
+
+.link{
+	/*Separando os links um dos outros*/
+	padding-left: 35px;
+
+	/*Tempo de transição*/
+	transition: .3s;
+}
+
+.link:hover{
+	/*Cor da fonte quando hover*/
+	color: #B4B4B4;
+}
+
+.btnLink{
+	/*Separando os links um dos outros*/
+	margin-left: 10px;
+
+	/*Tirando a borda padrão do HTML*/
+	border: none;
+
+	/*Tamanho do botão*/
+	height: 3vw;
+	width:7vw;
+
+	/*Configurações da fonte*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 1.2vw;
+	color: #F0FFFF;
+
+	/*Tempo de transição*/
+	transition: .6s;
+}
+
+#cadastro{
+	/*Separando os links um dos outros*/
+	margin-left: 35px;
+
+	/*Cor do botão*/
+	background: #072B72;
+}
+
+#cadastro:hover{
+	/*Tipo de cursor*/
+	cursor: pointer;
+	
+	/*Cores do botão*/
+	background: #fff;
+	color: #072B72;
+}
+
+#login{
+	/*Cor do botão*/
+	background: #CD0000;
+}
+
+#login:hover{
+	/*Tipo de cursor*/
+	cursor: pointer;
+
+	/*Cores usadas*/
+	background: #fff;
+	color: #CD0000;
+}
+
+#quadro{
+	background: rgba(255, 255, 255, 0.9);
+	box-shadow: 0 0 1vw #000;
+	border-radius: 0.30vw;
+
+	width:70vw;
+	height:48vw;
+
+	position:absolute;
+
+	left:50%;
+	transform:translateX(-50%);
+
+	margin-top:6vw;
+}
+
+#contetSN{
+	position:absolute;
+
+	left:50%;
+	transform:translateX(-50%);
+	margin-top:11vw;
+
+	color:#002A45;
+}
+
+#contetSN h1{
+	font-size:2.50vw;
+}
+
+#contetSN p{
+	font-size:1.30vw;
+}
+
+#contetSN li{
+	font-size:1.30vw;
+	margin-top:1vw;
+}
+
+#alunos{
+	position:absolute;
+	left:50%;
+	transform:translateX(-50%);
+	width:100%;
+}
+
+#infoInferior{
+
+	/*Altura e largura*/
+	width:100%;
+	height: 5vw;
+
+	/*Cor da div*/
+	background:#0D0D0D;
+
+	padding-top:0.40vw;
+
+	position: absolute;
+	margin-top:55vw;
+}
+
+#infoInferior p{
+	/*Configurações de fonte*/
+	color: #fff;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 1.5vw;
+	margin-left:2vw;
+}

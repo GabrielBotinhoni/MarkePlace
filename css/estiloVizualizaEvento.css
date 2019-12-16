@@ -1,0 +1,227 @@
+body{
+	/*Zerando o padding e a margem*/
+	margin:0;
+	padding:0;
+
+	background: url("../img/adm/backLights.jpg");
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+#back{
+	/*Definindo posição*/
+	position: fixed;
+
+	/*Altura e largura do botão*/
+	width: 4.50vw;
+	height:4.50vw;
+
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/back.png");
+	background-size: 100%;
+
+	/*Localizando botão no fundo*/
+	margin-left: 1.50vw;
+	margin-top: 0vw;
+
+	/*Tempo de transição*/
+	transition: .4s;
+
+	z-index:1000;
+}
+
+#back:hover{
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/backHover.png");
+	background-size: 100%;
+}
+
+#contentTable{
+	/*Conteúdo no centro*/
+	position:absolute;
+
+	left:50%;
+	transform: translateX(-50%);
+	margin-top:8vw;
+
+	/*tipo de fonte*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	color:black;
+
+	font-size:1.10vw;
+
+	height: auto;
+	width:80vw;
+
+	box-shadow: 0 0 1vw #000;
+
+	background:#fff;
+
+	margin-top:8vw;
+
+	border-top:4vw #fff solid;
+	border-left:4vw #fff solid;
+	border-bottom:4vw #fff solid;
+	border-right:4vw #fff solid;
+}
+
+select{
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	width:3vw;
+	height:1.50vw;
+
+	font-size: 0.92vw;
+}
+
+
+input[type=search]{
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	height:2.40vw;
+	width: 13vw;
+
+	font-size: 1.10vw;
+
+	background: #E8E8E8;
+	border: none;
+	border-radius: 0.30vw;
+}
+
+#contentTable h2{
+	font-size:2vw;
+}
+
+table, tr, td {
+	border-spacing: 0.1vw;
+	border-collapse: collapse;
+	border-color:#1c1c1c;
+}
+
+#contentTable table{
+	border-collapse: collapse;
+	width:100%;
+	
+}
+
+.imgTd{
+	width:auto;
+}
+
+#contentTable table img{
+	width:15vw; 
+	height:7vw;
+	padding-left:0;
+}
+
+#contentTable table tr{
+	/**/
+}
+
+#contentTable table tr, #contentTable table td{
+	padding-right:1vw;
+}
+
+#contentTable th, #contentTable td{
+	border-bottom: 0.50vw solid #fff;
+	font-size:1.20vw;
+}
+
+#contentTable table td{
+	background:#1c1c1c;
+	padding:0;
+	padding-top:0.30vw;
+	padding-left:0.30vw;
+
+	color:#fff;
+}
+
+#contentTable table td.dataTables_empty{
+	height: 4vw;
+    line-height: 3.70vw;
+}
+
+input[type=button]{
+	border:none;
+	height:3vw;
+	padding-left:1vw;
+	padding-right:1vw;
+	cursor:pointer;
+	background:#1874CD;
+	transition:.3s;
+	font-size:1vw;
+}
+
+input[type=button]:hover{
+	background:#104E8B;
+	color:#FFF;
+}
+
+.GetNothingDesktop{
+	display:none;
+}
+
+#quadro1{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+
+	background:#fff;
+	width:80vw;
+	height:8vw;
+
+	border-radius:0.50vw;
+	display:block;
+	box-shadow: 0 0 1vw #000;
+}
+
+#PnCad{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+
+	font-size:1.30vw;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	display:block;
+}
+
+#btnIrCadEv{
+	font-size:1.30vw;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+}
+
+.noneMob{
+	display:normal;
+}
+
+.msgScreen{
+	position:fixed;
+	width:30vw;
+	height:5vw;
+	border-radius:0.30vw;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	z-index:99999;
+	font-size:1.50vw;
+	line-height:2.10vw;
+	box-shadow: 0 0 1vw #000;
+	color:#fff;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+}
+
+	#cadSucMsg{
+		background:	#008B45;
+	}
+
+	#tipoImgDifMsg{
+		background:	#FFA500;
+
+		width:44vw;
+		height:8vw;
+	}	
+
+	#deletadoMsg{
+		background: #8B0000;
+	}

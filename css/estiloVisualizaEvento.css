@@ -1,0 +1,7 @@
+body{
+	/*Zerando o padding e a margem*/
+	margin:0;
+	padding:0;
+
+	background:black;
+}

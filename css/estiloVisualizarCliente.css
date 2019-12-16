@@ -1,0 +1,151 @@
+body{
+	margin:0;
+	padding:0;
+
+	/*Configurações de fundo*/
+	background: url("../img/adm/backWood.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#back{
+	/*Definindo posição*/
+	position: absolute;
+
+	/*Altura e largura do botão*/
+	width: 4.50vw;
+	height:4.50vw;
+
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/back.png");
+	background-size: 100%;
+
+	/*Localizando botão no fundo*/
+	margin-left: 1.50vw;
+	margin-top: 0vw;
+
+	/*Tempo de transição*/
+	transition: .4s;
+
+	z-index:100;
+}
+
+#back:hover{
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/backHover.png");
+	background-size: 100%;
+}
+
+
+#quadro{
+	/*Tipo de posição*/
+	position: absolute;
+
+	/*Altura e largura*/
+    width: 50vw;
+    height: 39vw;
+
+    /*Fundo*/
+    background:	#E8E8E8;
+
+    /*Centralizando div*/
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    /*Sombra do quadro*/
+    box-shadow: 0 0 1vw black;
+
+    margin-top:1.70vw;
+
+    border-radius:0.40vw;
+}
+
+#containerInfo{
+	/*Descendo 70px para uma div não cobrir a outra*/
+	margin-top: 70px;
+
+	/*Tipo de posição*/
+	position: absolute;
+
+	/*Fonte*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	/*Centralizando div*/
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    /*Subindo 2px para ficar no centro*/
+    margin-top:-2px;
+}
+
+.brNone{
+	display:none;
+}
+
+.info{
+	position: relative;
+	margin-left:-10vw;
+	font-size:1.20vw;
+	margin-top:3vw;
+}
+
+.btAlign{
+	margin-left:2vw;
+}
+
+.btnAlt{
+	/*Posição*/
+	position: absolute;
+
+	/*Tirando borda padrão do HTML*/
+	border: none;	
+
+	/*Cores do botão*/
+	background: #1E2025;
+	color: #fff;
+
+	/*Configurações de fonte*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 1.10vw;
+
+	/*Tempo de transição*/
+	transition: .3s;
+
+	/*Altura dos botõs*/
+	width: 11vw;
+	height: 2.74vw;
+}
+
+.btnAlt:hover{
+	/*Tipo de cursor*/
+	cursor: pointer;
+
+	/*Cor de fundo*/
+	background:#696969;
+}
+
+#btnEdit{
+	margin-left:-3vw;
+	margin-top:2vw;
+}
+
+#btnExc{
+	margin-top:2vw;
+	margin-left:9.12vw;
+}
+
+#btnExc:hover{
+	background: #CD0000;
+}
+
+#btnCadEve{
+	margin-left:-3vw;
+}
+
+#btnVisEve{
+	margin-left:9.18vw;
+}

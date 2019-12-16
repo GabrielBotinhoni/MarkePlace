@@ -1,0 +1,166 @@
+body{
+	padding:0;
+	margin:0;
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	background: url("../img/adm/backFlo1.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+#back{
+	/*Definindo posição*/
+	position: absolute;
+
+	/*Altura e largura do botão*/
+	width: 4.50vw;
+	height:4.50vw;
+
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/back.png");
+	background-size: 100%;
+
+	/*Localizando botão no fundo*/
+	margin-left: 1.50vw;
+	margin-top: 0vw;
+
+	/*Tempo de transição*/
+	transition: .4s;
+
+	z-index:100;
+}
+
+#back:hover{
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/backHover.png");
+	background-size: 100%;
+}
+
+#quadro{
+	position:absolute;
+
+	background:#fff;
+
+	width:40vw;
+	height:40vw;
+
+	top:52%;
+	left:50%;
+	transform:translate(-50%,-50%);
+
+	border-radius:0.30vw;
+}
+
+.container{
+	position:absolute;
+	top:49%;
+	left:50%;
+	transform:translate(-50%,-50%);
+
+	margin-left:10vw;
+
+	width:50vw;
+}
+
+.container h2{
+	font-size:2vw;
+}
+
+.container form label{
+	font-size:1.30vw;
+}
+
+.container input[type=text]{
+	width:24vw;
+	height:2.50vw;
+
+	border: 0.10vw solid #000;
+
+	font-size:1.30vw;
+
+	transition:.3s;
+}
+
+.container textarea#descricao-agenda{
+	width:24vw;
+	height:5vw;
+
+	border: 0.10vw solid #000;
+
+	font-size:1.30vw;
+
+	transition:.3s;
+}
+
+.container .date input[type=text]{
+	width:21vw;
+}
+
+.container input[type=text]:focus, .container textarea:focus{
+	background:#363636;
+	color:#fff;
+
+	box-shadow:none;
+}
+
+.container .date span.input-group-addon{
+	position:absolute;
+	margin-left:21vw;
+
+	width:3vw;
+	height:2.50vw;
+
+	border:0.10vw solid #000;
+	
+	color:#E8E8E8;
+	background:#363636;
+
+	cursor:pointer;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: transparent;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: transparent;
+}
+
+::placeholder {
+  color: transparent;
+}
+
+.container .date span.input-group-addon .glyphicon{
+	font-size:1.10vw;
+	position:absolute;
+
+	margin-left:-0.55vw;
+	margin-top:0.55vw;
+}
+
+.container button[type=submit]{
+	position:absolute;
+
+	font-size:1.20vw;
+
+	width:24vw;
+	height:3vw;
+
+	border:none;
+	border-radius:0.30vw;
+
+	background:#8B0000;
+	color:#fff;
+
+	transition:.3s;
+}
+
+.container button[type=submit]:hover{
+	background:#CD0000;
+}
+
+.errorMsg {
+	color:#CD0000;
+	font-size:1.30vw;
+}

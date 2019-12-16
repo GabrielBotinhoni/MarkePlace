@@ -1,0 +1,374 @@
+@media(max-width:480px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 16vw;
+		height:16vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 0.50vw;
+		margin-top: 1vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+	    /*Definindo as configurações de largura e altura*/
+	    width: 87vw;
+	    height:134vw;
+	}
+
+	h1{  /*Titulo (Cadastro)*/
+		font-size: 12vw;
+		text-align:center;
+	}
+
+	#msgContent{
+		/*Definindo as configurações de largura e altura*/
+		width: 70.510vw;
+		height:12vw;
+
+		/*Altura do texto em relação a div*/
+		line-height: 6vw;
+
+		/*Tamanho da fonte*/
+		font-size: 5vw;
+
+		/*Subindo 10px por padrão de espaço entre objetos*/
+		margin-top:-0.70vw;
+	}
+
+	.tdP{
+		display:none;
+	}
+
+	input[type=text],input[type=email], input[type=password]{
+		height:8vw;
+		width:70vw;
+
+		font-size:5vw;
+
+		transition: none;
+
+		text-align:center;
+	}
+
+	input[type=submit]{
+		height:11vw;
+		width:70.515vw;
+
+		transition: none;
+
+		font-size:5vw
+	}
+
+	input[type=submit]:hover{
+		border: none;
+		background: #CD0000;
+		color: #F0FFFF;
+	}
+
+	input[type=submit]:active{
+		/*Cores do botão*/
+		background: #F0FFFF;
+		color: #CD0000;
+	}
+
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ 		color: #0b0b0b;
+ 		text-align: center;
+	}
+
+	a{   /*Link do login*/
+
+		/*Tirando a decoração de texto padrão do HTML*/
+		text-decoration: none;
+
+		/*Cor do link*/
+		color: #CD0000;
+	}
+
+	a:hover{
+		/*Tipo de decoração quando hover*/
+		text-decoration: none;
+	}
+
+	p#pLogar{
+		/*Tamanho da fonte*/
+		font-size: 4.30vw;
+
+		/*Descendo*/
+		margin-top: 4vw;
+
+		text-align:center;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 9vw;
+		height:9vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 0.50vw;
+		margin-top: 1vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+	    /*Definindo as configurações de largura e altura*/
+	    width: 50vw;
+	    height:63vw;  
+	}
+
+	h1{  /*Titulo (Cadastro)*/
+		font-size: 6vw;
+		text-align:center;
+	}
+
+	#msgContent{
+		/*Definindo as configurações de largura e altura*/
+		width: 40vw;
+		height:7vw;
+
+		/*Altura do texto em relação a div*/
+		line-height: 6vw;
+
+		/*Tamanho da fonte*/
+		font-size: 3vw;
+
+		/*Subindo 10px por padrão de espaço entre objetos*/
+		margin-top:-0.70vw;
+	}
+
+	.tdP{
+		display:none;
+	}
+
+	input[type=text],input[type=email], input[type=password]{
+		width: 40vw;
+		height:4vw;
+
+		font-size:3vw;
+
+		transition: none;
+
+		text-align:center;
+	}
+
+	input[type=submit]{
+		width: 40vw;
+		height:4vw;
+
+		transition: none;
+
+		font-size:3vw
+	}
+
+	input[type=submit]:hover{
+		border: none;
+		background: #CD0000;
+		color: #F0FFFF;
+	}
+
+	input[type=submit]:active{
+		/*Cores do botão*/
+		background: #F0FFFF;
+		color: #CD0000;
+	}
+
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ 		color: #0b0b0b;
+ 		text-align: center;
+	}
+
+	a{   /*Link do login*/
+
+		/*Tirando a decoração de texto padrão do HTML*/
+		text-decoration: none;
+
+		/*Cor do link*/
+		color: #CD0000;
+	}
+
+	a:hover{
+		/*Tipo de decoração quando hover*/
+		text-decoration: none;
+	}
+
+	p#pLogar{
+		/*Tamanho da fonte*/
+		font-size: 3vw;
+
+		/*Descendo*/
+		margin-top: 4vw;
+
+		text-align:center;
+	}
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+  	body{
+		margin:0;
+		padding:0;
+	}
+
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 12vw;
+		height:12vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 0.50vw;
+		margin-top: 1vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+
+	    /*Definindo as configurações de largura e altura*/
+	    width:89vw;
+		height:100vw;  
+	}
+
+	h1{  /*Titulo (Cadastro)*/
+		font-size: 10vw;
+		text-align:center;
+	}
+
+	#msgContent{
+		/*Definindo as configurações de largura e altura*/
+		width: 70vw;
+		height:11vw;
+
+		/*Altura do texto em relação a div*/
+		line-height: 6vw;
+
+		/*Tamanho da fonte*/
+		font-size: 5vw;
+
+		/*Subindo 10px por padrão de espaço entre objetos*/
+		margin-top:-0.70vw;
+	}
+
+	.tdP{
+		display:none;
+	}
+
+	input[type=text],input[type=email], input[type=password]{
+		width: 70vw;
+		height:7vw;
+
+		font-size:5vw;
+
+		transition: none;
+
+		text-align:center;
+	}
+
+	input[type=submit]{
+		width: 70vw;
+		height:7vw;
+
+		transition: none;
+
+		font-size:5vw
+	}
+
+	input[type=submit]:hover{
+		border: none;
+		background: #CD0000;
+		color: #F0FFFF;
+	}
+
+	input[type=submit]:active{
+		/*Cores do botão*/
+		background: #F0FFFF;
+		color: #CD0000;
+	}
+
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ 		color: #0b0b0b;
+ 		text-align: center;
+	}
+
+	a{   /*Link do login*/
+
+		/*Tirando a decoração de texto padrão do HTML*/
+		text-decoration: none;
+
+		/*Cor do link*/
+		color: #CD0000;
+	}
+
+	a:hover{
+		/*Tipo de decoração quando hover*/
+		text-decoration: none;
+	}
+
+	p#pLogar{
+		/*Tamanho da fonte*/
+		font-size: 4.30vw;
+
+		/*Descendo*/
+		margin-top: 4vw;
+
+		text-align:center;
+	}
+ }
+

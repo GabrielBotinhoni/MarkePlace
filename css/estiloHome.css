@@ -1,0 +1,368 @@
+body{
+	/*Zerando configuração de margem e padding*/
+	margin: 0;
+	padding:0;
+}
+
+.menuHome{
+	/*Posição do menu*/
+	position: fixed;
+
+	/*Configurações de altura e largura do menu*/
+	width: 100%;
+	height: 4.5vw;
+
+	/*Cor da div*/
+	background: black;
+
+	/*Maior prioridade para aparecer na frente de outras divs*/
+	z-index: 100;
+
+	/*Sombra*/
+	box-shadow: 0 0 2vw #000;
+}
+
+#menuMob{
+	display:none;
+}
+
+.menuHome img{
+	margin-top:0.30vw;
+	margin-left:2vw;
+	width: auto;
+	height:3.80vw;
+	position: absolute;
+}
+
+/*Conteudo (links e btns) do menu*/
+#contentLink{
+	/*Dimensões máximas*/
+	max-width: 93%;
+	max-height: 100%;
+
+	/*Tipo de posição*/
+	position:absolute;
+
+	/*Forma como os links se comportam*/
+	display: inline;
+
+	/*Conteúdo à direita*/
+	margin-left:53%;
+
+	margin-top:0.75vw;
+}
+
+a{
+	/*Configurações de fonte dos links*/
+	text-decoration: none;
+	font-size: 1.2vw;
+	color: #F0FFFF;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+}
+
+.link{
+	/*Separando os links um dos outros*/
+	padding-left: 35px;
+
+	/*Tempo de transição*/
+	transition: .3s;
+}
+
+.link:hover{
+	/*Cor da fonte quando hover*/
+	color: #B4B4B4;
+}
+
+.btnLink{
+	/*Separando os links um dos outros*/
+	margin-left: 10px;
+
+	/*Tirando a borda padrão do HTML*/
+	border: none;
+
+	/*Tamanho do botão*/
+	height: 3vw;
+	width:7vw;
+
+	/*Configurações da fonte*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 1.2vw;
+	color: #F0FFFF;
+
+	/*Tempo de transição*/
+	transition: .6s;
+}
+
+#cadastro{
+	/*Separando os links um dos outros*/
+	margin-left: 35px;
+
+	/*Cor do botão*/
+	background: #072B72;
+}
+
+#cadastro:hover{
+	/*Tipo de cursor*/
+	cursor: pointer;
+	
+	/*Cores do botão*/
+	background: #fff;
+	color: #072B72;
+}
+
+#login{
+	/*Cor do botão*/
+	background: #CD0000;
+}
+
+#login:hover{
+	/*Tipo de cursor*/
+	cursor: pointer;
+
+	/*Cores usadas*/
+	background: #fff;
+	color: #CD0000;
+}
+
+/*Slider Config*/
+#slider{
+	/*Slider escondido*/
+	overflow: hidden;
+		
+	/*Altura do slider*/
+	height:54vw;
+}
+
+#sliderMob{
+	display: none;
+}
+
+#slider figure{
+	/*Tamanhos da figure*/
+	width:100%;
+	height:100%;
+
+	/*Tipo de posição*/
+	position: relative;
+
+	/*Tamanho de 100% das imagens juntas*/
+	width: 500%;
+	margin: 0;
+	left: 0;
+
+	/*Animação do slider*/
+	animation: 20s slider infinite;
+}
+
+#slider figure .contentSlide img{
+	/*Configurações da imagem*/
+	width: 20%;
+	float: left;
+
+	height:100%;
+}
+
+.contentSlide img{
+	/*Configurações da imagem*/
+	max-width:100%;
+	max-height: 100%;
+}
+	
+/*Key Frames dos slides*/
+@keyframes slider{
+	0%{
+		left: 0;
+	}
+
+	20%{
+		left: 0;
+	}
+
+	25%{
+		left:-100%;
+	}
+
+	45%{
+		left:-100%;
+	}
+
+	50%{
+		left:-200%;
+	}
+
+	70%{
+		left:-200%;
+	}
+
+	75%{
+		left:-300%;
+	}
+
+	95%{
+		left:-300%;
+	}
+
+	100%{
+		left:-400%;
+	}
+}
+/**/
+
+#TitleBack{
+	/*Cor de fundo*/
+	background:#0D0D0D;
+	color:#fff;
+
+	/*Dimensões*/
+	width:100%;
+	height:15vw;
+	
+	/*Subindo para alinhar com a div de cima*/
+	margin-top:-5.70vw;
+
+	/*Sombra*/
+	box-shadow: 0 0 2vw #000;
+}
+
+#TitleBack img{
+	/*Dimensões da imagem*/
+	width:6.50vw;
+	height:6.50vw;
+
+	/*Centralizando horizontalmente*/
+	position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+
+    margin-top:1.30vw;
+
+    position: absolute;
+}
+
+#autoM{
+	background: #363636;
+
+	width:100%;
+	height:7vw;
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 1.50vw;
+	color:#fff;
+
+	text-align:center;
+
+	box-shadow: 0 0 1vw #000;
+
+	padding-top:1vw;
+	padding-bottom:2vw;
+}
+
+#textoFuncTit{
+	/*Centralizando horizontalmente*/
+	position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+
+    margin-top:6.30vw;
+
+}
+
+#tituloFuncionalidades{
+	/*Configurações de fonte*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 2.2vw;
+	text-align: center;
+}
+
+#subtituloFuncionalidades{
+	/*Configurações de fonte*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 1.5vw;
+	text-align: center;
+
+	/*Subindo para o subtitulo ficar perto do titulo*/
+	margin-top: -1.7vw;
+}
+
+#funcionalidades{
+	/*Posição*/
+	position: relative;
+
+	/*Altura da div somada pelo Browser*/
+	height: auto;
+	margin-top:-0.10vw;
+}
+
+/*Div para deixar uma div debaixo da outra*/
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.funcBloco{
+	/*Tamanho das divs*/
+	height: auto;
+
+	/*Configurações de fonte*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 1.5vw;
+
+	/*Alinhamento de texto*/
+	text-align: center;
+
+	padding-right:5vw;
+	padding-left:5vw;
+
+	display:block;
+}
+
+#cadClientes{
+	margin-top:3vw;
+}
+
+#cadClientes p{
+	/*Tamanho do texto*/
+	font-size:1.50vw;
+}
+
+#visEventos{
+	margin-top:4vw;
+}
+
+#visEventos p{
+	/*Tamanho do texto*/
+	font-size:1.50vw;
+}
+
+h4{
+	/*Cor do titulo*/
+	color: #CD0000;
+}
+
+#infoInferior{
+	/*Descendo div para não ficar muito proximo a de cima*/
+	margin-top: 3vw;
+
+	/*Altura e largura*/
+	width:100%;
+	height: 5vw;
+
+	/*Cor da div*/
+	background:#0D0D0D;;
+
+	padding-top:0.40vw;
+
+	
+}
+
+#infoInferior p{
+	/*Configurações de fonte*/
+	color: #fff;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 1.5vw;
+	margin-left:2vw;
+
+}

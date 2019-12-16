@@ -1,0 +1,62 @@
+body{
+	/*Zerando o padding e a margem*/
+	margin:0;
+	padding:0;
+
+	background: url("../img/adm/backLights.jpg");
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+#quadro{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+	background:#fff;
+
+	width:70vw;
+	height:10vw;
+
+	border-radius:0.50vw;
+
+	box-shadow: 0 0 1vw #000;
+}
+
+p{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+	margin-top:-1.50vw;
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+}
+
+input[type=button]{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+	margin-top:2vw;
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	border:none;
+
+	height:3vw;
+	padding-left:1vw;
+	padding-right:1vw;
+	cursor:pointer;
+	background:#1874CD;
+	transition:.3s;
+	font-size:1vw;
+}
+
+input[type=button]:hover{
+	background:#104E8B;
+	color:#FFF;
+}

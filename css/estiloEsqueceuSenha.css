@@ -1,0 +1,130 @@
+body{
+	/*Zerando margem e padding*/
+	margin:0;
+	padding:0;
+
+	/*Definindo configurações de plano de fundo*/
+	background: url("../img/backgroundLogin/backcanyon.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#quadro{
+	/*Dimensões do quadrado*/
+	width:35vw;
+	height:40vw;
+
+	/*Cor de fundo*/
+	background:black;
+
+	/*Centralizando conteudo*/
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+
+	/*Borda*/
+	border-style: solid;
+  	border-width: 0.2vw;
+  	border-color: #fff;    
+}
+
+div#divMsgError{
+	background:#CD0000;
+	border-radius:0.30vw;
+
+	width:30vw;
+	height:3vw;
+
+	line-height:3vw;
+}
+
+p#pMsgError{
+	font-size:2.40;
+
+}
+
+#content{
+	/*Centralizando conteudo*/
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+h2{
+	/*Configurações de fonte usada na pagina*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	color:#fff;
+	font-size:2vw;
+}
+
+form p{
+	/*Configurações de fonte usada na pagina*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	color:#fff;
+	font-size:1.20vw;
+}
+
+form input[type=text]{
+	/*Dimensões do campo*/
+	width:26vw;
+	height:2.50vw;
+
+	/*Tirando borda padrão do HTML*/
+	border:none;
+	border-radius:0.20vw;
+
+	/*Configurações de fonte*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size:1.20vw;
+
+	/*Espaçamento dentro do input*/
+	padding-left:0.20vw;
+	padding-right:0.20vw;
+
+	/*Sombra*/
+	box-shadow: 0 0 0.20vw #000;
+}
+
+form input[type=submit]{
+	/*Dimensões do btn*/
+	height:2.50vw;
+	width:7vw;
+
+	/*Tirando borda padrão do HTML*/
+	border:none;
+	
+	/*Configurações de fonte*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size:1.20vw;
+
+	/*Tipo de cursor*/
+	cursor:pointer;
+
+	/*Cor de fundo*/
+	background: #CD0000;
+	color: #fff;
+
+	/*Tempo de transição*/
+	transition: .3s;
+
+	/*Espaçamento dentro do input*/
+	padding-left:0.50vw;
+	padding-right:0.50vw;
+}
+
+form input[type=submit]:hover{
+	background: #fff;
+	color: #CD0000;
+}
+
+p a{
+	text-decoration:none;
+
+	color:#CD0000;
+}
+
+p a:hover{
+	text-decoration: underline;
+}

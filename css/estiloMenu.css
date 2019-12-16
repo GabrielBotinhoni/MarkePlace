@@ -1,0 +1,191 @@
+body{
+	/*Zerando configurações de margem e padding*/
+	margin: 0;
+	padding: 0;
+}
+
+#menu{
+	/*Tamanho do menu*/
+	width: 100%;
+	height: 4.5vw;
+
+	/*Cor do menu*/
+	background: black;
+
+	position: fixed;
+	z-index:100;
+}
+
+#menuMob{
+	display:none;
+}
+
+.linkCentro{
+	margin-top:1.60vw;
+
+	/*Posição*/
+	position: absolute;
+
+	/*Posicionando texto na horizontal*/
+	left: 46%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+}
+
+#content a{
+	/*Configurção de fonte*/
+	text-decoration: none;
+	font-size: 1.16vw;
+	color: #F0FFFF;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	/*Separando links um dos outros*/
+	margin-left: 5.11vw;
+
+	/*Tempo de transição*/
+	transition: .4s;
+}
+
+#content a:hover{
+	/*Cor do link quando hover*/
+	color: #B4B4B4;
+}
+
+#menu div#userFoto{
+	position:absolute;
+
+	margin-left:90%;
+	margin-top:0.45vw;
+
+	cursor:pointer;
+}
+
+#menu div#userFoto img{
+	width:3.50vw;
+}
+
+#menu div#userFoto img#BdUserImg{
+	width:3.50vw;
+	height:3.50vw;
+
+	border-radius:100%;
+
+	transition: .3s;
+}
+
+#menu div#userFoto img#BdUserImg:hover{
+	filter: grayscale(100%);
+}
+
+
+#userConfig{
+	position:absolute;
+
+	background: #fff;
+
+	width:23vw;
+	height:25vw;
+
+	margin-left:70vw;
+	margin-top:5vw;
+	padding:0.50vw;
+
+	display:none;
+
+	box-shadow:0 0 1vw #000;
+	border-radius:0.30vw;
+
+	z-index: 9999;
+}
+
+#userConfig img{
+	width:7vw;
+
+	position:absolute;
+
+	left:50%;
+	transform: translateX(-50%);
+
+	margin-top:1vw;
+}
+
+#userConfig img#BdUserImgPlaceholder{
+	width:8vw;
+	height:8vw;
+
+	border-radius:100%;
+
+	box-shadow: 0 0 0.10vw #000;
+}
+
+#userConfig p{
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	position:absolute;
+
+	left:50%;
+	transform: translateX(-50%);
+	text-align:center;
+
+	margin-top:10.20vw;
+}
+
+#userConfig a p button{
+	position:absolute;
+	transform: translateX(-50%);
+
+	margin-top:6vw;
+
+	width:20vw;
+	height:3vw;
+
+	border:none;
+
+	background:#025CB8;
+	color:#fff;
+
+	font-size:1.10vw;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	cursor:pointer;
+
+	transition: .3s;
+}
+
+#userConfig a p button:hover{
+	background:#072B72;
+}
+
+#userConfig input[type=submit]{
+	position:absolute;
+	margin-top:10vw;
+
+	transform: translateX(-50%);
+
+	border:none;
+
+	font-size:1.10vw;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	width:20vw;
+	height:3vw;
+
+	cursor:pointer;
+
+	color:#fff;
+	background:#CD0000;
+
+	transition: .3s;
+}
+
+#userConfig input[type=submit]:hover{
+	background:#8B0000;
+}
+
+/*Quando pagina ativa*/
+body#areaAdministração a#areaAdministração, body#cadastroCliente a#cadastroCliente, body#listaCliente a#listaCliente, 
+body#agenda a#agenda{
+	/*Cor do link*/
+	color: 	#63B8FF;
+}
+

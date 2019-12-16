@@ -1,0 +1,558 @@
+@media(max-width:480px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 16vw;
+		height:16vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 0.50vw;
+		margin-top: -3vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+		/*Dimensões do objeto*/
+	    width: 90vw;
+	    height:140vw;
+
+	    /*Descendo o quadro para centralizar*/
+	    margin-top:2vw;
+
+	    /*Borda arredondada*/
+	    border-radius: 1vw;
+
+	    z-index:0;
+	}
+
+
+	#Container{
+	    margin-top:0.70vw;
+
+	    margin-left:-2vw;
+
+	    z-index:0;
+	}
+
+	p#tit{
+		/*Configurações de fonte*/
+		font-size:8vw;
+	    margin-left:2vw;
+	}
+
+	td{
+		/*Configurações de fonte*/
+		font-size:5vw;
+	}
+
+	input[type=text],input[type=date],textarea,input[type=file]::-webkit-file-upload-button{
+		/*Dimensões do objeto*/
+	    height:10vw;
+	    font-size:5vw;
+
+	    /*Tempo de transição*/
+	    transition: none;
+	}
+
+	input[type=text],input[type=date],textarea{
+		text-align: center;
+	}
+
+	table{
+		margin-left:2vw;
+	}
+
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		text-align:center;
+	}
+
+	input[type=text]:focus,input[type=date]:focus,textarea:focus{
+	    background:#363636;
+	    color: #fff;
+	}
+
+	.noneMob{
+		display:none;
+	}
+
+	input[type=text]{
+	    font-size:5vw;
+
+	    width:80vw;
+
+	    padding-left:0.20vw;
+	    padding-right:0.20vw;
+
+	    margin:0;
+	}
+
+	input[type=date]{
+	    font-size:5vw;
+
+	    width: 80vw;
+
+	    margin:0;
+
+	    text-align: center;
+	}
+
+	textarea{
+		font-size:5vw;
+
+	    /*Altura/largura*/
+	    height:20vw;
+	    width: 80vw;
+
+	    padding-left:0.20vw;
+	    padding-right:0.20vw;
+
+	    margin:0;
+	}
+
+	div#nomeArquivo{
+	    width: 80vw;
+	    height:10vw;
+	    padding:0.2vw 0.3vw;
+
+	    position: relative;
+
+	    margin:0;
+	}
+
+	div#nomeArquivo img{
+	    float:right;
+	    width:10vw;
+	}
+
+	td input[type=submit]#btnEnviar{
+	    font-size:5vw;
+
+	    /*Dimensões do objeto*/
+	  	width:80.80vw;
+	    height:10vw;
+	  	display:block;
+
+	}
+
+	td input[type=submit]#btnEnviar:hover{ font-size:5vw;
+
+	    /*Dimensões do objeto*/
+	  	width:80.80vw;
+	    height:10vw;
+	  	display:block;
+	  	color:#fff;
+	  	background:#CD0000;
+	  }
+	td input[type=submit]#btnEnviar:active{ font-size:5vw;
+
+	    /*Dimensões do objeto*/
+	  	width:80.80vw;
+	    height:10vw;
+	  	display:block;
+	  	color:#fff;
+	  	background:#CD0000;
+	  }
+
+	#quadroDark{
+		width: 96vw;
+  	 	height:130vw;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+	body{
+		margin:0;
+		padding:0;
+		background: #121219;
+		overflow: scroll;
+		height:300%;
+	}
+
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 11vw;
+		height:11vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 1vw;
+		margin-top: -3.20vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#ContainerTextos{
+	/*Centralizando objeto*/
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    /*Estilo de fonte*/
+    font-family: 'Montserrat', 'sans-serif', 'Century Gothic';  
+
+    /*Descendo a div para centralizar*/
+    margin-left:-2vw;
+    margin-top:44vw;
+}
+
+#info{
+    margin-left:17vw;
+}
+
+p#tit{
+	/*Configurações de fonte*/
+	font-size:5vw;
+	color: #fff;
+    margin-left:2vw;
+}
+
+input[type=text],input[type=date],textarea,input[type=file]::-webkit-file-upload-button{
+		/*Dimensões do objeto*/
+	    height:5vw;
+	    font-size:3vw;
+
+	    /*Tempo de transição*/
+	    transition: none;
+	}
+
+	input[type=text],input[type=date],textarea{
+		text-align: center;
+	}
+
+	table{
+		margin-left:2vw;
+	}
+
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		text-align:center;
+	}
+
+	input[type=text]:focus,input[type=date]:focus,textarea:focus{
+	    background:#363636;
+	    color: #fff;
+	}
+
+	.noneMob{
+		display:none;
+	}
+
+	input[type=text]{
+	    font-size:3vw;
+
+	    width:60vw;
+
+	    padding-left:0.20vw;
+	    padding-right:0.20vw;
+
+	    margin:0;
+	}
+
+	input[type=date]{
+	    font-size:3vw;
+
+	    width:60vw;
+
+	    margin:0;
+
+	    text-align: center;
+	}
+
+	textarea{
+		font-size:3vw;
+
+	    /*Altura/largura*/
+	    height:20vw;
+	    width:60vw;
+
+	    padding-left:0.20vw;
+	    padding-right:0.20vw;
+
+	    margin:0;
+	}
+
+	div#nomeArquivo{
+	    width:60vw;
+	    height:10vw;
+	    padding:0.2vw 0.3vw;
+
+	    position: relative;
+
+	    margin:0;
+	}
+
+	div#nomeArquivo img{
+	    float:right;
+	    width:10vw;
+	}
+
+	td input[type=submit]#btnEnviar{
+	    font-size:3vw;
+
+	    /*Dimensões do objeto*/
+	  	width:60vw;
+	    height:10vw;
+	  	display:block;
+
+	}
+
+	td input[type=submit]#btnEnviar:hover{ 
+		font-size:3vw;
+
+	    /*Dimensões do objeto*/
+	  	width:60vw;
+	    height:10vw;
+	  	display:block;
+	  	color:#fff;
+	  	background:#CD0000;
+	  }
+	td input[type=submit]#btnEnviar:active{ 
+		font-size:3vw;
+
+	    /*Dimensões do objeto*/
+	  	width:60vw;
+	    height:10vw;
+	  	display:block;
+	  	color:#fff;
+	  	background:#CD0000;
+	  }
+
+	#quadroDark{
+		width: 80vw;
+  	 	height:130vw;
+  	 	margin-top:5vw;
+  	 	position:absolute;
+  	 	display:none;
+    }
+
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5){
+  	body{
+		margin:0;
+		padding:0;
+	}
+
+	#ContainerTextos{
+		/*Centralizando objeto*/
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%,-50%);
+
+	    /*Estilo de fonte*/
+	    font-family: 'Montserrat', 'sans-serif', 'Century Gothic';  
+
+	    /*Descendo a div para centralizar*/
+	    margin-left:-2vw;
+	    margin-top:63vw;
+	}
+
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 16vw;
+		height:16vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 0.50vw;
+		margin-top: -3vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+		/*Dimensões do objeto*/
+	    width: 90vw;
+	    height:140vw;
+
+	    /*Descendo o quadro para centralizar*/
+	    margin-top:2vw;
+
+	    /*Borda arredondada*/
+	    border-radius: 1vw;
+
+	    z-index:0;
+	}
+
+
+	#Container{
+	    margin-top:0.70vw;
+
+	    margin-left:-2vw;
+
+	    z-index:0;
+	}
+
+	p#tit{
+		/*Configurações de fonte*/
+		font-size:8vw;
+	    margin-left:2vw;
+	}
+
+	td{
+		/*Configurações de fonte*/
+		font-size:5vw;
+	}
+
+	input[type=text],input[type=date],textarea,input[type=file]::-webkit-file-upload-button{
+		/*Dimensões do objeto*/
+	    height:10vw;
+	    font-size:5vw;
+
+	    /*Tempo de transição*/
+	    transition: none;
+	}
+
+	input[type=text],input[type=date],textarea{
+		text-align: center;
+	}
+
+	table{
+		margin-left:2vw;
+	}
+
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		text-align:center;
+	}
+
+	input[type=text]:focus,input[type=date]:focus,textarea:focus{
+	    background:#363636;
+	    color: #fff;
+	}
+
+	.noneMob{
+		display:none;
+	}
+
+	input[type=text]{
+	    font-size:5vw;
+
+	    width:80vw;
+
+	    padding-left:0.20vw;
+	    padding-right:0.20vw;
+
+	    margin:0;
+	}
+
+	input[type=date]{
+	    font-size:5vw;
+
+	    width: 80vw;
+
+	    margin:0;
+
+	    text-align: center;
+	}
+
+	textarea{
+		font-size:5vw;
+
+	    /*Altura/largura*/
+	    height:20vw;
+	    width: 80vw;
+
+	    padding-left:0.20vw;
+	    padding-right:0.20vw;
+
+	    margin:0;
+	}
+
+	div#nomeArquivo{
+	    width: 80vw;
+	    height:10vw;
+	    padding:0.2vw 0.3vw;
+
+	    position: relative;
+
+	    margin:0;
+	}
+
+	div#nomeArquivo img{
+	    float:right;
+	    width:10vw;
+	}
+
+	td input[type=submit]#btnEnviar{
+	    font-size:5vw;
+
+	    /*Dimensões do objeto*/
+	  	width:80.80vw;
+	    height:10vw;
+	  	display:block;
+
+	}
+
+	td input[type=submit]#btnEnviar:hover{ font-size:5vw;
+
+	    /*Dimensões do objeto*/
+	  	width:80.80vw;
+	    height:10vw;
+	  	display:block;
+	  	color:#fff;
+	  	background:#CD0000;
+	  }
+	td input[type=submit]#btnEnviar:active{ font-size:5vw;
+
+	    /*Dimensões do objeto*/
+	  	width:80.80vw;
+	    height:10vw;
+	  	display:block;
+	  	color:#fff;
+	  	background:#CD0000;
+	  }
+
+	#quadroDark{
+		width: 96vw;
+  	 	height:130vw;
+  	 	margin-top:20vw;
+    }	
+}

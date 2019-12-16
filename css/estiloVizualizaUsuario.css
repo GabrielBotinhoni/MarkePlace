@@ -1,0 +1,159 @@
+body{
+	margin:0;
+	padding:0;
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	background:url("../img/adm/backSunset.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+#back{
+	/*Definindo posição*/
+	position: fixed;
+
+	/*Altura e largura do botão*/
+	width: 4.50vw;
+	height:4.50vw;
+
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/back.png");
+	background-size: 100%;
+
+	/*Localizando botão no fundo*/
+	margin-left: 1.50vw;
+	margin-top: -0.10vw;
+
+	/*Tempo de transição*/
+	transition: .4s;
+
+	/*Deixando este objeto por cima de todos objetos*/
+	z-index:1000;
+}
+
+#back:hover{
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/backHover.png");
+	background-size: 100%;
+}
+
+#quadro{
+	position:absolute;
+
+	top:53%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+	background: #fff;
+
+	width:40vw;
+	height:40vw;
+
+	border-radius:0.30vw;
+
+	box-shadow: 0 0 1vw #000;
+}
+
+#contentAll{
+	position:absolute;
+
+	top:52%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+#contentAll h2{
+	font-size:2vw;
+}
+
+#contentAll table td{
+	font-size:1.30vw;
+}
+
+#contentAll p{
+	font-size:1.30vw;
+}
+
+#contentAll form p{
+	font-size:1.30vw;
+}
+
+#contentAll a button{
+	border:none;
+	border-radius:0.30vw;
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size:1.10vw;
+
+	width:25vw;
+	height:2.50vw;
+
+	cursor:pointer;
+
+	transition: .3s;
+
+	background:#104E8B;
+	color: #fff;
+}
+
+#contentAll a button:hover{
+	background:#1874CD;
+}
+
+div#nomeArquivo{
+    background:#104E8B;
+    width: 24.40vw;
+    height:3vw;
+
+    padding:0.2vw 0.3vw;
+
+    position: relative;
+
+    margin:0;
+
+    border-radius:0.30vw;
+}
+
+div#nomeArquivo img{
+    float:right;
+    width:3vw;
+}
+
+div#nomeArquivo span{
+    color:#fff; 
+    display:block;
+    float:left;
+
+}
+
+div#nomeArquivo input[type=file]{
+    position: absolute;
+    right:5px;
+    width:40px;
+    height:40px;
+
+    opacity:0;
+}
+
+#contentAll form input[type=submit]{
+	border:none;
+	border-radius:0.30vw;
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size:1.10vw;
+
+	width:25vw;
+	height:3.20vw;
+
+	cursor:pointer;
+
+	transition: .3s;
+
+	background:#CD0000;
+	color: #fff;
+}
+
+#contentAll form input[type=submit]:hover{
+	background:#8B0000;
+}

@@ -1,0 +1,237 @@
+body{
+	/*Zerando o padding e a margem*/
+	padding:0;
+	margin:0;
+
+	/*Configurações de fundo*/
+	background: url("../img/adm/backDesk.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+#back{
+	/*Definindo posição*/
+	position: absolute;
+
+	/*Altura e largura do botão*/
+	width: 4.50vw;
+	height:4.50vw;
+
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/back.png");
+	background-size: 100%;
+
+	/*Localizando botão no fundo*/
+	margin-left: 1.50vw;
+	margin-top: -0.10vw;
+
+	/*Tempo de transição*/
+	transition: .4s;
+
+	/*Deixando este objeto por cima de todos objetos*/
+	z-index:1000;
+}
+
+#back:hover{
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/backHover.png");
+	background-size: 100%;
+}
+
+#quadroDark{
+	/*Centralizando objeto*/
+	position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /*Dimensões do objeto*/
+    width: 47vw;
+    height:39vw;
+
+    /*Cor de fundo*/
+    background: #121219;
+
+    /*Descendo o quadro para centralizar*/
+    margin-top:2vw;
+
+    /*Borda arredondada*/
+    border-radius: 0.50vw;
+}
+
+#ContainerTextos{
+	/*Centralizando objeto*/
+	position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    /*Estilo de fonte*/
+    font-family: 'Montserrat', 'sans-serif', 'Century Gothic';  
+
+    /*Descendo a div para centralizar*/
+    margin-left:-2vw;
+}
+
+#info{
+    margin-left:3vw;
+}
+
+p#tit{
+	/*Configurações de fonte*/
+	font-size:2.80vw;
+	color: #fff;
+    margin-left:2vw;
+}
+
+td{
+	/*Configurações de fonte*/
+	font-size:1.30vw;
+	color: #fff;
+}
+
+
+.noneMob{
+    display:block;
+}
+
+input[type=text],input[type=date],textarea,input[type=file]::-webkit-file-upload-button{
+	/*Dimensões do objeto*/
+    height:2.30vw;
+    /*Tempo de transição*/
+    transition: .3s;
+}
+
+input[type=text]:focus,input[type=date]:focus,textarea:focus{
+    background:#363636;
+    color: #fff;
+}
+
+input[type=text]::placeholder{
+    color: black;
+}
+
+input[type=text]{
+	/*Configurações de fonte*/
+    font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+    font-size:1vw;
+
+    /*Cores*/
+    background: #9C9C9C;
+
+    /*Tirando a borda padrão*/
+    border:none;
+
+    width: 20.50vw;
+
+    padding-left:0.20vw;
+    padding-right:0.20vw;
+
+    margin:0;
+}
+
+input[type=date]{
+	/*Configurações de fonte*/
+    font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+    font-size:1vw;
+
+    background: #9C9C9C;
+
+    /*Tirando a borda padrão*/
+    border:none;
+
+    width: 20.85vw;
+
+    margin:0;
+}
+
+textarea{
+	/*Configurações de fonte*/
+    font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+    font-size:1vw;
+
+    background: #9C9C9C;
+
+    /*Tirando a borda padrão*/
+    border:none;
+
+    /*Altura/largura*/
+    height:5vw;
+    width: 20.50vw;
+
+    padding-left:0.20vw;
+    padding-right:0.20vw;
+
+    margin:0;
+}
+
+textarea::placeholder{
+    color: black;
+}
+
+div#nomeArquivo{
+    background:#104E8B;
+    width: 20.50vw;
+    padding:0.2vw 0.3vw;
+
+    position: relative;
+
+    margin:0;
+
+}
+
+div#nomeArquivo img{
+    float:right;
+    width:3vw;
+}
+
+div#nomeArquivo span{
+    color:#fff; 
+    display:block;
+    float:left;
+
+}
+
+div#nomeArquivo input[type=file]{
+    position: absolute;
+    right:5px;
+    width:40px;
+    height:40px;
+
+    opacity:0;
+
+}
+
+td input[type=submit]#btnEnviar{
+	/*Configurações de fonte*/
+    font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+    font-size:1vw;
+
+    /*Dimensões do objeto*/
+  	width:21vw;
+    height:3vw;
+
+    /*Tirando a borda do btn*/
+    border:none;
+
+    /*Cor de fundo*/
+    background: #CD0000;
+    color: #fff;
+
+    margin-top:0;
+    margin-left:0;
+    left:0;
+    margin-right:none;
+
+    margin:0;
+}
+
+input[type=submit]:hover{
+	/*Tipo de cursor*/
+	cursor: pointer;
+}
+
+input[type=submit]:active{
+    /*Cor de fundo*/
+    background: #660000;
+}

@@ -1,0 +1,158 @@
+body{
+	/*Zerando configurações de padding e margem*/
+	margin: 0;
+	padding:0;
+
+	/*Configurações de fundo da pagina*/
+	background: url("../img/adm/backDesk.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#quadro{
+	/*Cor de fundo*/
+	 background:#121219;
+
+	/*Tamanho da div*/
+	width: 43.73vw;
+	height:36.44vw;
+
+	/*Tipo de posição*/
+	position: absolute;
+
+	/*Alinhando div no centro*/
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    /*Borda arredontada*/
+    border-radius:0.40vw;
+
+    margin-top:2vw;
+}
+
+#containerCentro{
+	/*Fonte usadada em toda a página*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	/*Tipo de posição*/
+	position: absolute;
+
+	/*Alinhando div no centro*/
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    /*Cor do texto*/
+    color: #fff;
+
+    margin-top:2vw;
+}
+
+#tituloCadCli{
+	/*Tamanho do titulo (Cadastro de Clientes)*/
+	font-size: 2.75vw;
+
+	margin-top: 1vw;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: transparent;
+}
+
+#msgContent{
+	width: 32.85vw;
+	height: 2.80vw;
+	background: black;
+
+	line-height: 2.80vw;
+
+	font-size: 1.30vw;
+
+	color: #fff;
+}
+
+td{
+	/*Tamanho da fonte dentro dos td*/
+	font-size: 1.44vw;
+	color: #fff;
+}
+
+td input[type=text], td input[type=email], td input[type=number]{
+	/*Tamanho dos inputs*/
+	height: 1.86vw;
+	width: 17vw;
+
+	/*Tirando a borda padrão*/
+	border: none;
+
+	/*Fonte usasda nos inputs*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 1.16vw;
+
+	/*Cor do input*/
+	background: #9C9C9C;
+	color: #fff;
+	
+	/*Tempo de transição*/
+	transition: .6s;
+
+	/*Espaço dentro do input*/
+	padding:0.1vw;
+}
+
+td input[type=text]:focus{background:#363636;color: #fff;} 
+td input[type=email]:focus{background:#363636;color: #fff;} 
+td input[type=number]:focus{background:#363636;color: #fff;}
+	
+
+td input[type=submit]{
+	/*Tamanho dos inputs*/
+	height: 2.40vw;
+	width: 17vw;
+
+	/*Tirando a borda padrão*/
+	border: none;
+
+	/*Configurações de fonte do botão*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 1.16vw;
+
+	/*Tipo de cursor*/
+	cursor: pointer;
+
+	/*Configuração de cores*/
+	background: #CD0000;
+	color: #fff;
+}
+
+td input[type=submit]:hover{
+	/*Tipo de cursor*/
+	cursor: pointer;
+}
+
+td input[type=submit]:active{
+	/*Cor de fundo*/
+	background: #8B0000;
+
+}
+
+select{
+	/*Cor de fundo*/
+	background:#9C9C9C; color:#fff;
+
+	/*Configurações de espaço*/
+	height: 1.86vw;
+	width: 17vw;
+
+	/*Tirando a borda padrão*/
+	border: none;
+
+	/*Fonte usasda nos inputs*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 1.16vw;
+
+}
+

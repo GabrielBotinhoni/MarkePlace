@@ -1,0 +1,195 @@
+body{
+	margin:0;
+	padding:0;
+
+    background: url("../img/adm/backLights.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+#back{
+    /*Definindo posição*/
+    position: fixed;
+
+    /*Altura e largura do botão*/
+    width: 4.50vw;
+    height:4.50vw;
+
+    /*Configurações da imagem do botão*/
+    background: url("../img/backButton/back.png");
+    background-size: 100%;
+
+    /*Localizando botão no fundo*/
+    margin-left: 1.50vw;
+    margin-top: 0vw;
+
+    /*Tempo de transição*/
+    transition: .4s;
+
+    z-index:1000;
+}
+
+#back:hover{
+    /*Configurações da imagem do botão*/
+    background: url("../img/backButton/backHover.png");
+    background-size: 100%;
+}
+
+#contentTable{
+    /*Conteúdo no centro*/
+    position:absolute;
+
+    left:50%;
+    transform: translateX(-50%);
+    margin-top:8vw;
+
+    /*tipo de fonte*/
+    font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+    color:black;
+
+    font-size:1.10vw;
+
+    height: auto;
+    width:80vw;
+
+    box-shadow: 0 0 1vw #000;
+
+    background:#fff;
+
+    margin-top:8vw;
+
+    border-top:4vw #fff solid;
+    border-left:4vw #fff solid;
+    border-bottom:4vw #fff solid;
+    border-right:4vw #fff solid;
+}
+
+#quadro{
+    width:43vw;
+    height:110%;
+    background:#fff;
+
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+    box-shadow: 0 0 1vw #000;
+}
+
+#contentPage{
+	position:absolute;
+	top:60%;
+	left:50%;
+	transform: translate(-50%, -50%);
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size:1.30vw;
+}
+
+#contentPage h1{
+	font-size:2vw;
+}
+
+td{
+    font-size: 1.30vw;
+}
+
+input[type=text], textarea, input[type=date]{
+    font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+    font-size:1.10vw;
+
+    width:21.30vw;
+
+    border:none;
+
+    background: #4F4F4F;
+    color:#fff;
+
+    transition:.3s;
+}
+
+input[type=text]:focus, textarea:focus, input[type=date]:focus{
+    background:#1C1C1C
+}
+
+input[type=text], input[type=date]{
+    height:3vw;
+}
+
+div#nomeArquivo{
+    background:#104E8B;
+    width: 20.70vw;
+    padding:0.2vw 0.3vw;
+
+    position: relative;
+
+    margin:0;
+
+}
+
+div#nomeArquivo img{
+    float:right;
+    width:3vw;
+}
+
+div#nomeArquivo span{
+    color:#fff; 
+    display:block;
+    float:left;
+
+}
+
+div#nomeArquivo input[type=file]{
+    position: absolute;
+    right:1vw;
+    width:2vw;
+    height:2vw;
+
+    opacity:0;
+
+}
+
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img {
+    max-width: 30vw;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.6s;
+
+    width:21.30vw;
+    height:10vw;
+}
+
+.zoom:hover img {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+button[type=submit]{
+    width: 21.30vw;
+    height:3.20vw;
+    border:none;
+    cursor:pointer;
+    transition:.3s;
+    font-size:1.10vw;
+    background:#CD0000;
+    color:#fff;
+}
+
+button[type=submit]:hover{
+    background:#8B0000;
+}
+
+.noneMob{
+    display:normal;
+    float:right;
+}
+
+#btnCalcilar{
+    
+}

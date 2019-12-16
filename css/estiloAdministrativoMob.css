@@ -1,0 +1,492 @@
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) { 
+    body{
+		margin:0;
+		padding:0;
+	}
+
+	#apreImg{
+		width:100%;
+		height:100vw;
+	}
+
+	#qBemVindo{
+		position:absolute;
+
+		margin-top:10vw;
+
+		background: rgba(0,0,0,0.9);
+
+		padding-left:1.30vw;
+		padding-right:1.30vw;
+	}
+
+	#qBemVindo p{
+		font-size:6vw;
+		font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+		color:#fff;
+
+		margin-left:5vw;
+	}
+
+	#hr{
+		position:absolute;
+		
+		width:100%;
+		height:10vw;
+
+		background:black;
+	}
+
+	#quadros{
+		position:relative;
+
+		left:50%;
+		transform: translateX(-50%);
+		
+
+		margin-top:-8vw;
+	}
+
+	.quadro{
+		background: #fff;
+		margin-left:10vw;	
+
+		font-size:5vw;
+		font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+		width:70vw;
+		height:70vw;
+
+		position:relative;
+		float:left;
+
+		box-shadow: 0 0 1vw #000;
+	}
+
+	a .quadro, p#acreFin, p#mFin, #ageCen, a #q5{
+		text-decoration:none;
+		text-align:center;
+
+		color: #000;
+	}
+
+	a .quadro{
+		transition:.1s;
+	}
+
+	a .quadro:hover{
+		background:#fff;
+	}
+
+	a .quadro:active{
+		background:#CFCFCF;
+	}
+
+	.nDado{
+		text-align:center;
+		font-size:5vw;
+
+		margin-top:8.60vw;
+	}
+
+	#q1{
+		margin-top:4vw;
+	}
+
+	#q2{
+		margin-top:4vw;
+	}
+
+	#q3{
+		margin-top:4vw;
+	}
+
+	#q4{
+		margin-top:4vw;
+		margin-left:10vw;
+	}
+
+	#q5{
+		margin-top:4vw;
+	}
+
+	.num{
+		font-size:35vw;
+		font-family: 'Staatliches', cursive;
+
+		margin-top:2vw;
+	}
+
+	p.txtP{
+		margin-top:-28vw;
+	}
+
+	.clearfix:after{
+	    content: "";
+	    display: table;
+	    clear: both;
+	}
+
+	.infoInferior{
+		margin-top:3vw;
+
+		background: #0D0D0D;
+
+		width:100%;
+		height:20vw;
+
+	}
+
+	.infoInferior p{
+		font-size:5vw;
+		font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+		color:#fff;
+
+		margin-left:1vw;
+		width:73%;
+	}
+
+	#info1{
+		position:absolute;
+		margin-left:50%;
+		transform: translateX(-50%);
+	}
+
+	#info2{
+		position:absolute;
+		margin-top:12vw;
+		margin-left:50%;
+		transform: translateX(-50%);
+	}
+}
+ 
+/* Telefones em paisagem a tablet em retrato */
+@media (min-width: 481px) and (max-width: 767px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	#apreImg{
+		width:100%;
+		height:50vw;
+	}
+
+	#qBemVindo{
+		position:absolute;
+
+		margin-top:10vw;
+
+		background: rgba(0,0,0,0.9);
+
+		padding-left:1.30vw;
+		padding-right:1.30vw;
+	}
+
+	#qBemVindo p{
+		font-size:4vw;
+		font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+		color:#fff;
+
+		margin-left:3vw;
+	}
+
+	#hr{
+		position:absolute;
+		
+		width:100%;
+		height:5vw;
+
+		background:black;
+	}
+
+	#quadros{
+		position:relative;
+
+		left:50%;
+		transform: translateX(-50%);
+		
+
+		margin-top:-8vw;
+	}
+
+	.quadro{
+		background: #fff;
+		margin-left:10vw;	
+
+		font-size:3vw;
+		font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+		width:33vw;
+		height:33vw;
+
+		position:relative;
+		float:left;
+
+		box-shadow: 0 0 1vw #000;
+	}
+
+	a .quadro, p#acreFin, p#mFin, #ageCen, a #q5{
+		text-decoration:none;
+		text-align:center;
+
+		color: #000;
+	}
+
+	a .quadro{
+		transition:.1s;
+	}
+
+	a .quadro:hover{
+		background:#fff;
+	}
+
+	a .quadro:active{
+		background:#CFCFCF;
+	}
+
+	.nDado{
+		text-align:center;
+		font-size:3vw;
+
+		margin-top:8.60vw;
+	}
+
+	#q1{
+		margin-top:4vw;
+	}
+
+	#q2{
+		margin-top:4vw;
+	}
+
+	#q3{
+		margin-top:4vw;
+	}
+
+	#q4{
+		margin-top:4vw;
+		margin-left:10vw;
+	}
+
+	#q5{
+		margin-top:4vw;
+	}
+
+	.num{
+		font-size:22vw;
+		font-family: 'Staatliches', cursive;
+
+		margin-top:2vw;
+	}
+
+	p.txtP{
+		margin-top:-28vw;
+	}
+
+	.clearfix:after{
+	    content: "";
+	    display: table;
+	    clear: both;
+	}
+
+	.infoInferior{
+		margin-top:3vw;
+
+		background: #0D0D0D;
+
+		width:100%;
+		height:13vw;
+
+	}
+
+	.infoInferior p{
+		font-size:3vw;
+		font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+		color:#fff;
+
+		margin-left:1vw;
+		width:45%;
+	}
+
+	#info1{
+		position:absolute;
+		margin-left:50%;
+		transform: translateX(-50%);
+	}
+
+	#info2{
+		position:absolute;
+		margin-top:7vw;
+		margin-left:50%;
+		transform: translateX(-50%);
+	}	
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+  	body{
+		margin:0;
+		padding:0;
+	}
+
+	#apreImg{
+		width:100%;
+		height:100vw;
+	}
+
+	#qBemVindo{
+		position:absolute;
+
+		margin-top:20vw;
+
+		background: rgba(0,0,0,0.9);
+
+		padding-left:1.30vw;
+		padding-right:1.30vw;
+	}
+
+	#qBemVindo p{
+		font-size:6vw;
+		font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+		color:#fff;
+
+		margin-left:5vw;
+	}
+
+	#hr{
+		position:absolute;
+		
+		width:100%;
+		height:10vw;
+
+		background:black;
+	}
+
+	#quadros{
+		position:relative;
+
+		left:50%;
+		transform: translateX(-50%);
+		
+
+		margin-top:-8vw;
+	}
+
+	.quadro{
+		background: #fff;
+		margin-left:10vw;	
+
+		font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+		width:70vw;
+		height:70vw;
+
+		position:relative;
+		float:left;
+
+		box-shadow: 0 0 1vw #000;
+	}
+
+	a .quadro, p#acreFin, p#mFin, #ageCen, a #q5{
+		text-decoration:none;
+		text-align:center;
+
+		color: #000;
+	}
+
+	a .quadro{
+		transition:.1s;
+	}
+
+	a .quadro:hover{
+		background:#fff;
+	}
+
+	a .quadro:active{
+		background:#CFCFCF;
+	}
+
+	.nDado{
+		text-align:center;
+		font-size:5vw;
+
+		margin-top:8.60vw;
+	}
+
+	#q1{
+		margin-top:4vw;
+	}
+
+	#q2{
+		margin-top:4vw;
+	}
+
+	#q3{
+		margin-top:4vw;
+	}
+
+	#q4{
+		margin-top:4vw;
+		margin-left:10vw;
+	}
+
+	#q5{
+		margin-top:4vw;
+	}
+
+	.num{
+		font-size:35vw;
+		font-family: 'Staatliches', cursive;
+
+		margin-top:2vw;
+	}
+
+	p.txtP{
+		margin-top:-28vw;
+		font-size:5vw;
+	}
+
+	.clearfix:after{
+	    content: "";
+	    display: table;
+	    clear: both;
+	}
+
+	.infoInferior{
+		margin-top:3vw;
+
+		background: #0D0D0D;
+
+		width:100%;
+		height:20vw;
+
+	}
+
+	.infoInferior p{
+		font-size:5vw;
+		font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+		color:#fff;
+
+		margin-left:1vw;
+		width:73%;
+	}
+
+	#info1{
+		position:absolute;
+		margin-left:50%;
+		transform: translateX(-50%);
+	}
+
+	#info2{
+		position:absolute;
+		margin-top:12vw;
+		margin-left:50%;
+		transform: translateX(-50%);
+	}
+}

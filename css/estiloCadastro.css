@@ -1,0 +1,272 @@
+body{
+	/*Zerando configurações de distância*/
+	margin:  0;
+	padding: 0;
+
+	/*Altura do fundo da tela*/
+	height: 100vh;
+
+	/*Definindo configurações de plano de fundo*/
+	background: url("../img/backgroundLogin/backcanyon.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+
+	/*Configurações de fonte usada na pagina*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	color: #F0FFFF;
+}
+
+/*Botão de voltar para Home-page*/
+#back{
+	/*Definindo posição*/
+	position: absolute;
+
+	/*Altura e largura do botão definidas em VW para a responsividade*/
+	width: 4.5vw;
+	height:4.5vw;
+
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/back.png");
+	background-size: 100%;
+
+	/*Localizando botão no fundo*/
+	margin-left: 1vw;
+	margin-top: 1vw;
+
+	/*Tempo de transição*/
+	transition: .4s;
+}
+
+#back:hover{
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/backHover.png");
+	background-size: 100%;
+}
+
+#quadro{
+	/*Centralizando quadro no centro da tela*/
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    /*Definindo as configurações de largura e altura*/
+    width: 46vw;
+    height:40vw;
+
+    /*Cor do quadro*/
+    background: black;
+
+    /*Borda do quadro*/
+    border-style: solid;
+  	border-width: 0.2vw;
+  	border-color: #fff;    
+}
+
+#contentForm{
+	/*Centralizando objeto no centro da tela*/
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{  /*Titulo (Cadastro)*/
+	font-size: 3vw;
+}
+
+td{
+	/*Tamanho da fonte*/
+	font-size: 1.2vw;
+}
+
+/*inputs*/
+input[type=email]{
+	/*Tirando borda padrão dos input do HTML*/
+	border: none;
+
+	/*Definindo as configurações de largura e altura*/
+	width: 24.2vw;
+	height:2.42vw;
+
+	/*Tipo de fonte usada no input*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic'; 
+
+	/*Cores do input*/
+	background-color: #4F4F4F;
+	color: #F0FFFF;
+
+	/*Padding do placeholder e do texto*/
+	padding-left: 2px;
+
+	/*Tamanho da fonte*/
+	font-size: 1vw;
+
+	/*Tempo de transição*/
+	transition: .3s;
+}
+
+input[type=email]:focus{
+	/*Novas cores quando focus*/
+	background: #C1CDCD;
+	color: black;
+}
+
+input[type=text]{
+	/*Tirando borda padrão dos input do HTML*/
+	border: none;
+
+	/*Definindo as configurações de largura e altura*/
+	width: 24.2vw;
+	height:2.42vw;
+
+	/*Tipo de fonte usada no input*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic'; 
+
+	/*Cores do input*/
+	background-color: #4F4F4F;
+	color: #F0FFFF;
+
+	/*Padding do placeholder e do texto*/
+	padding-left: 2px;
+
+	/*Tamanho da fonte*/
+	font-size: 1vw;
+
+	/*Tempo de transição*/
+	transition: .3s;
+}
+
+input[type=text]:focus{
+	/*Novas cores quando focus*/
+	background: #C1CDCD;
+	color: black;
+}
+
+input[type=password]{
+	/*Tirando borda padrão dos input do HTML*/
+	border: none;
+
+	/*Definindo as configurações de largura e altura*/
+	width: 24.2vw;
+	height:2.42vw; 
+
+	/*Tipo de fonte usada no input*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic'; 
+
+	/*Cores do input*/
+	background-color: #4F4F4F;
+
+	/*Padding do placeholder e do texto*/
+	padding-left: 2px;
+
+	/*Configurações da fonte*/
+	font-size: 1vw;
+	color: #F0FFFF;
+
+	/*Tempo de transição*/
+	transition: .3s;
+}
+
+input[type=text]:focus::-webkit-input-placeholder {
+   color: transparent;
+}
+
+input[type=email]:focus::-webkit-input-placeholder {
+   color: transparent;
+}
+
+input[type=password]:focus::-webkit-input-placeholder {
+   color: transparent;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ 	color: #0b0b0b;
+}
+
+input[type=password]:focus{
+	/*Novas cores quando focus*/
+	background: #C1CDCD;
+	color: black;
+}
+
+input[type=submit]{
+	/*Borda*/
+	border: none;
+
+	/*Definindo as configurações de largura e altura*/
+	width: 24.35vw;
+	height:2.60vw;
+
+	/*Tipo de cursor*/
+	cursor: pointer; 
+
+	/*Tipo de fonte usada no input*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 1.2vw;
+
+	/*Cores do botão*/
+	background: #CD0000;
+	color: #F0FFFF;
+
+	/*Tempo de transição*/
+	transition: .6s;
+}
+
+input[type=submit]:hover{
+	/*Novas cores quando hover*/
+	background: #fff;
+	color: #CD0000;
+}
+
+input{
+	/*Separando os inputs*/
+	margin-top: 0.010vw; 
+}
+
+#msgContent{
+	/*Posição*/
+	position: relative;
+
+	/*Definindo as configurações de largura e altura*/
+	width: 24.3vw;
+	height:2.42vw;
+
+	/*Cores do objeto*/
+	background: #1C1C1C;
+
+	/*Altura do texto em relação a div*/
+	line-height: 2.42vw;
+
+	/*Tamanho da fonte*/
+	font-size: 1.1vw;
+
+	/*Subindo 10px por padrão de espaço entre objetos*/
+	margin-top:-10px;
+}
+
+a{   /*Link do login*/
+
+	/*Tirando a decoração de texto padrão do HTML*/
+	text-decoration: none;
+
+	/*Cor do link*/
+	color: #CD0000;
+}
+
+a:hover{
+	/*Tipo de decoração quando hover*/
+	text-decoration: underline;
+}
+
+#pLogar{
+	/*Tamanho da fonte*/
+	font-size: 1vw;
+
+	/*Descendo*/
+	margin-top: 36px;
+
+	text-align: right;
+}

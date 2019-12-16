@@ -1,0 +1,251 @@
+@media(max-width:480px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 16vw;
+		height:16vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 0.50vw;
+		margin-top: 1vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+		/*Altura e largura*/
+	    width: 90vw;
+	    height: 100%;
+
+	    /*Sombra do quadro*/
+	    box-shadow: 0 0 1vw black;
+
+	    margin-top:4vw;
+
+	    border-radius:1.20vw;
+	}
+
+	h2{
+		font-size:9vw;
+	}
+
+	td p{
+		font-size:5vw;
+	}
+
+	form input[type=text]{
+		transition:none;
+		font-size:5vw;
+
+		width:50vw;
+		height:11vw;
+	}
+
+	form input[type=email]{
+		transition:none;
+		font-size:5vw;
+
+		width:50vw;
+		height:11vw;
+	}
+
+	form input[type=submit]#btnEditar{
+		transition:none;
+		font-size:5vw;
+
+		width:50vw;
+		height:14vw;
+	}	
+
+	form input[type=text]:focus{background:#828282; color:#fff;}
+	form input[type=number]:focus{background:#828282; color:#fff;}
+	form input[type=email]:focus{background:#828282; color:#fff;}
+}
+
+
+@media (min-width: 481px) and (max-width: 767px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 11vw;
+		height:11vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 1vw;
+		margin-top: -0.40vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+		/*Altura e largura*/
+	    width: 90vw;
+	    height: 140vw;
+
+	    /*Sombra do quadro*/
+	    box-shadow: 0 0 1vw black;
+
+	    margin-top:4vw;
+
+	    border-radius:1.20vw;
+	}
+
+	h2{
+		font-size:5vw;
+	}
+
+	td p{
+		font-size:4vw;
+	}
+
+	form input[type=text]{
+		transition:none;
+		font-size:4vw;
+
+		width:50vw;
+		height:6vw;
+	}
+
+	form input[type=email]{
+		transition:none;
+		font-size:4vw;
+
+		width:50vw;
+		height:6vw;
+	}
+
+	form input[type=submit]#btnEditar{
+		transition:none;
+		font-size:4vw;
+
+		width:50vw;
+		height:8vw;
+	}	
+
+	form input[type=text]:focus{background:#828282; color:#fff;}
+	form input[type=number]:focus{background:#828282; color:#fff;}
+	form input[type=email]:focus{background:#828282; color:#fff;}
+
+	#containerEdit{
+		margin-top:25vw;
+	}
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5){
+  	body{
+		margin:0;
+		padding:0;
+	}
+
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 16vw;
+		height:16vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 0.50vw;
+		margin-top: 1vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+		/*Altura e largura*/
+	    width: 90vw;
+	    height: 100%;
+
+	    /*Sombra do quadro*/
+	    box-shadow: 0 0 1vw black;
+
+	    margin-top:4vw;
+
+	    border-radius:1.20vw;
+	}
+
+	h2{
+		font-size:9vw;
+	}
+
+	td p{
+		font-size:5vw;
+	}
+
+	form input[type=text]{
+		transition:none;
+		font-size:5vw;
+
+		width:50vw;
+		height:11vw;
+	}
+
+	form input[type=email]{
+		transition:none;
+		font-size:5vw;
+
+		width:50vw;
+		height:11vw;
+	}
+
+	form input[type=submit]#btnEditar{
+		transition:none;
+		font-size:5vw;
+
+		width:50vw;
+		height:14vw;
+	}	
+
+	form input[type=text]:focus{background:#828282; color:#fff;}
+	form input[type=number]:focus{background:#828282; color:#fff;}
+	form input[type=email]:focus{background:#828282; color:#fff;}
+}

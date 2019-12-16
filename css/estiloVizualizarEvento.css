@@ -1,0 +1,207 @@
+body{
+	margin:0;
+	padding:0;
+
+	background: url("../img/adm/backLights.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+#back{
+	/*Definindo posição*/
+	position: fixed;
+
+	/*Altura e largura do botão*/
+	width: 4.50vw;
+	height:4.50vw;
+
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/back.png");
+	background-size: 100%;
+
+	/*Localizando botão no fundo*/
+	margin-left: 1.50vw;
+	margin-top: 0vw;
+
+	/*Tempo de transição*/
+	transition: .4s;
+
+	z-index:1000;
+}
+
+#back:hover{
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/backHover.png");
+	background-size: 100%;
+}
+
+#quadro{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+	background: #fff;
+	width:60vw;
+	height:200%;
+
+	display:normal;
+
+	box-shadow: 0 0 1.20vw #000;
+}
+
+#contentEvent{
+	margin-top:5vw;
+
+	position:absolute;
+	top:60%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size:1.30vw;
+}
+
+h2{
+	font-size:2vw;
+}
+
+.zoom{
+	overflow: hidden;
+}
+
+.zoom img {
+	max-width: 30vw;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.6s;
+
+	width:26vw;
+	height:17vw;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+td.brokenLine{
+	width:auto;
+	max-width:27vw;
+}
+
+
+input[type=button]{
+	border:none;
+	height:3vw;
+	width:10vw;
+	padding-left:1vw;
+	padding-right:1vw;
+	cursor:pointer;
+	background:#828282;
+	transition:.3s;
+	font-size:1vw;
+
+	margin-top:1.70vw;
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size:1.10vw;
+}
+
+input[type=button]:hover{
+	background:#104E8B;
+	color:#FFF;
+}
+
+
+input[type=button]#exc:hover{
+	background:#CD0000;
+	color:#FFF;
+}
+
+input[type=text]{
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size:1.10vw;
+
+	width:20vw;
+	height:3vw;
+	border:none;
+
+	background:	#CFCFCF;
+
+	border-radius:0.50vw 0vw 0vw 0.50vw;
+
+	transition:.3s;
+}
+
+input[type=text]:focus{
+	background:#9C9C9C;
+}
+
+button{
+	font-size:1vw;
+	height:3.30vw;
+	border:none;
+	background:#1C1C1C;
+	color:#fff;
+	transition:.2s;
+	cursor:pointer;
+
+	border-radius:0vw 0.50vw 0.50vw 0vw;
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+}
+
+button:hover{
+	background:black;
+}
+
+input[type=submit]#btnCalcilar{
+	font-size:1vw;
+	height:3.30vw;
+	width:6vw;
+	border:none;
+	background:#1C1C1C;
+	color:#fff;
+	transition:.2s;
+	cursor:pointer;
+
+	border-radius:0vw 0.50vw 0.50vw 0vw;
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+}
+
+input[type=submit]#btnCalcilar:hover{
+	background:black;
+}
+
+.msgScreen{
+	position:fixed;
+	width:30vw;
+	height:5vw;
+	border-radius:0.30vw;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	z-index:99999;
+	font-size:1.50vw;
+	line-height:2.10vw;
+	box-shadow: 0 0 1vw #000;
+	color:#fff;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+}
+
+#extDifImg{
+	background:	#FFA500;
+	height:8.30vw;
+	width:45vw;
+}
+
+#limitMsg{
+	background:	#FFA500;
+}
+
+#altSucMsg{
+	background:	#008B45;
+}

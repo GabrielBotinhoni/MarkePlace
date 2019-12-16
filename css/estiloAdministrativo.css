@@ -1,0 +1,156 @@
+body{
+	margin:0;
+	padding:0;
+	background:#FFFAFA;
+}
+
+#apreImg{
+	background: url("../img/adm/backMountain_1.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+
+	width:100%;
+	height:36vw;
+}
+
+#qBemVindo{
+	position:absolute;
+
+	margin-top:4vw;
+
+	background: rgba(0,0,0,0.9);
+
+	padding-left:1.30vw;
+	padding-right:1.30vw;
+}
+
+#qBemVindo p{
+	font-size:1.75vw;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	color:#fff;
+
+	margin-left:5vw;
+}
+
+#hr{
+	position:absolute;
+	
+	width:100%;
+	height:4vw;
+
+	background:black;
+}
+
+#quadros{
+	position:relative;
+
+	left:47%;
+	transform: translateX(-50%);
+	width:96%;
+
+	margin-top:-8vw;
+}
+
+.quadro{
+	background: #fff;
+	margin-left:10vw;	
+
+	font-size:1.30vw;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	width:20vw;
+	height:20vw;
+
+	position:relative;
+	float:left;
+
+	box-shadow: 0 0 1vw #000;
+}
+
+a .quadro, p#acreFin, p#mFin, #ageCen, a #q5{
+	text-decoration:none;
+	text-align:center;
+
+	color: #000;
+}
+
+a .quadro{
+	transition:.4s;
+}
+
+a .quadro:hover{
+	background:#CFCFCF;
+}
+
+.nDado{
+	text-align:center;
+	font-size:1.30vw;
+
+	margin-top:8.60vw;
+}
+
+#q1{
+	margin-top:4vw;
+}
+
+#q2{
+	margin-top:4vw;
+}
+
+#q3{
+	margin-top:4vw;
+}
+
+#q4{
+	margin-top:4vw;
+	margin-left:24.50vw;
+}
+
+#q5{
+	margin-top:4vw;
+}
+
+.num{
+	font-size:9vw;
+	font-family: 'Staatliches', cursive;
+
+	margin-top:2vw;
+}
+
+p.txtP{
+	margin-top:-6vw;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.infoInferior{
+	margin-top:3vw;
+
+	background: #0D0D0D;
+
+	width:100%;
+	height:5vw;
+
+}
+
+.infoInferior p{
+	font-size:1.50vw;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	color:#fff;
+
+	margin-left:1vw;
+}
+
+#info1{
+	position:absolute;
+}
+
+#info2{
+	position:absolute;
+
+	margin-left:76%;
+}

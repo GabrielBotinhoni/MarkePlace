@@ -1,0 +1,294 @@
+@media(max-width:480px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 16vw;
+		height:16vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 0.50vw;
+		margin-top: 1vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+	  	border-width: 0.70vw;
+	  	border-color: #fff;    
+
+	  	/*Dimensõe da div*/
+	  	width:87vw;
+		height:100vw;
+	}
+
+	h2{
+		/*Tamanho da fonte*/
+		font-size:9vw;
+	}
+
+	form{
+		/*Tamanho da fonte*/	
+		font-size:5vw;
+	}
+
+	#mobNone{
+		display:none;
+	}
+
+	input[type=text]{
+		/*Dimensões do input*/
+		width:64vw;
+		height:10vw;
+
+		border-radius:0.70vw;
+
+		/*Espaçamento dentro do input*/
+		padding-right:1vw;
+		padding-left:1vw;
+
+		font-size:5.10vw;
+	}
+
+	::-webkit-input-placeholder:focus{
+	  color: transparent;
+	}
+
+	input[type=submit]{
+		/*Dimensões do btn*/
+		width:28vw;
+		height:8.90vw;
+
+		/*Tipo de cursor*/
+		cursor:normal;
+
+		font-size:5vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	input[type=submit]:hover{
+		background: #CD0000;
+		color: #fff;
+	}
+
+	input[type=submit]:active{
+		background: #fff;
+		color: #CD0000;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 9vw;
+		height:9vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 1vw;
+		margin-top: 3vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+	  	border-width: 0.70vw;
+	  	border-color: #fff;    
+
+	  	/*Dimensõe da div*/
+	  	width:65vw;
+		height:50vw;
+	}
+
+	h2{
+		/*Tamanho da fonte*/
+		font-size:6vw;
+	}
+
+	form{
+		/*Tamanho da fonte*/	
+		font-size:3vw;
+	}
+
+	#mobNone{
+		display:none;
+	}
+
+	input[type=text]{
+		/*Dimensões do input*/
+		width: 40vw;
+		height:4vw;
+
+		border-radius:0.70vw;
+
+		/*Espaçamento dentro do input*/
+		padding-right:1vw;
+		padding-left:1vw;
+
+		font-size:3vw;
+	}
+
+	::-webkit-input-placeholder:focus{
+	  color: transparent;
+	}
+
+	input[type=submit]{
+		/*Dimensões do btn*/
+		width: 42vw;
+		height:4vw;
+
+		/*Tipo de cursor*/
+		cursor:normal;
+
+		font-size:3vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	input[type=submit]:hover{
+		background: #CD0000;
+		color: #fff;
+	}
+
+	input[type=submit]:active{
+		background: #fff;
+		color: #CD0000;
+	}
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+  	body{
+		margin:0;
+		padding:0;
+	}
+
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 12vw;
+		height:12vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 1vw;
+		margin-top: 3vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#quadro{
+	  	border-width: 0.70vw;
+	  	border-color: #fff;    
+
+	  	/*Dimensõe da div*/
+	  	width:82vw;
+		height:100vw;
+	}
+
+	h2{
+		/*Tamanho da fonte*/
+		font-size:10vw;
+	}
+
+	form{
+		/*Tamanho da fonte*/	
+		font-size:5vw;
+	}
+
+	#mobNone{
+		display:none;
+	}
+
+	input[type=text]{
+		/*Dimensões do input*/
+		width: 65vw;
+		height:6vw;
+
+		border-radius:0.70vw;
+
+		/*Espaçamento dentro do input*/
+		padding-right:1vw;
+		padding-left:1vw;
+
+		font-size:5vw;
+	}
+
+	::-webkit-input-placeholder:focus{
+	  color: transparent;
+	}
+
+	input[type=submit]{
+		/*Dimensões do btn*/
+		width: 67vw;
+		height:7vw;
+
+		/*Tipo de cursor*/
+		cursor:normal;
+
+		font-size:5vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	input[type=submit]:hover{
+		background: #CD0000;
+		color: #fff;
+	}
+
+	input[type=submit]:active{
+		background: #fff;
+		color: #CD0000;
+	}
+}

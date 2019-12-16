@@ -1,0 +1,129 @@
+body{
+	/*Zerand margem e o padding*/
+	margin:0;
+	padding:0;
+
+	/*Definindo configurações de plano de fundo*/
+	background: url("../img/backgroundLogin/backcanyon.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#back{
+	/*Definindo posição*/
+	position: absolute;
+
+	/*Altura e largura do botão definidas em VW para a responsividade*/
+	width: 4.5vw;
+	height:4.5vw;
+
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/back.png");
+	background-size: 100%;
+
+	/*Localizando botão no fundo*/
+	margin-left: 1vw;
+	margin-top: 1vw;
+
+	/*Tempo de transição*/
+	transition: .4s;
+}
+
+#back:hover{
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/backHover.png");
+	background-size: 100%;
+}
+
+#quadro{
+	/*Cor de fundo*/
+	background:black;
+
+	/*Centralizando conteudo*/
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+
+	/*Borda*/
+	border-style: solid;
+  	border-width: 0.2vw;
+  	border-color: #fff;    
+
+  	/*Dimensõe da div*/
+  	width:40vw;
+  	height:40vw;
+}
+
+#content{
+	/*Conteúdo no centro*/
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+h2{
+	/*Configurações de fonte usada na pagina*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	color: #fff;
+	font-size:2vw;
+}
+
+p{
+	/*Configurações de fonte usada na pagina*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	color: #fff;
+	font-size:1.30vw;
+}
+
+input[type=password]{
+	/*Dimensões do input*/
+	width:27vw;
+	height:3vw;
+
+	/*Tirando borda padrão do HTML*/
+	border:none;
+	border-radius:0.30vw;
+
+	/*Espaçamento dentro do input*/
+	padding-right:0.50vw;
+	padding-left:0.50vw;
+
+	/*Configurações de fonte usada na pagina*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size:1.20vw;
+}
+
+::-webkit-input-placeholder:focus{
+  color: transparent;
+}
+
+input[type=submit]{
+	/*Dimensões do btn*/
+	width:7vw;
+	height:3vw;
+
+	/*Tirando borda padrão do HTML*/
+	border:none;
+
+	/*Tipo de cursor*/
+	cursor:pointer;
+
+	/*Cores*/
+	background: #CD0000;
+	color: #fff;
+
+	/*Configurações de fonte usada na pagina*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size:1.20vw;
+
+	/*Tempo de transição*/
+	transition: .3s;
+}
+
+input[type=submit]:hover{
+	/*Cores*/
+	background: #fff;
+	color: #CD0000;
+}

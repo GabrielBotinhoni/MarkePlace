@@ -1,0 +1,180 @@
+body{
+	margin:0;
+	padding:0;
+
+	background: url("../img/adm/backMountain.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+#containerLista{
+	margin-top:6vw;
+	
+	position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%);
+
+    font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+    font-size: 1.20vw;
+
+    width: 75vw;
+    height:auto;
+
+    background: #fff;
+
+    padding:6vw;
+    padding-bottom:3vw;
+
+    border-radius:0.40vw;
+
+    box-shadow: 0 0 1vw #111;
+
+}
+
+select{
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	width:3vw;
+	height:1.50vw;
+
+	font-size: 0.92vw;
+}
+
+input[type=search]{
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	height:2.40vw;
+	width: 13vw;
+
+	font-size: 1.10vw;
+
+	background: #E8E8E8;
+	border: none;
+	border-radius: 0.30vw;
+}
+
+table{
+	width:100%;
+}
+
+table th{
+	font-size: 1.30vw;
+}
+
+table td{
+	font-size: 1.20vw;
+}
+
+.aBtn{
+	margin-left: 1vw;
+}
+
+.inputBtn{
+	border: none;
+	font-size:1.10vw;
+	height:2.30vw;
+
+	background: #104E8B;
+	color:#fff;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	transition: .3s;
+
+	margin-top:0.10vw;
+}
+
+.inputBtn:hover{
+	cursor: pointer;
+	background:#fff;
+	color:#104E8B;
+	border: solid 0.10vw #104E8B;
+}
+
+#btnVis{
+	width:11vw;
+}
+
+#btnEve{
+	width:11vw;
+}
+
+#centro{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#quadroP{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    background: #fff;
+    border-radius: 0.40vw;
+
+   width:46vw;
+   height:7vw;
+
+    box-shadow: 0 0 1vw black;
+}
+
+#pNCad{
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 1.50vw;
+}
+
+#btnCad{
+	border: none;
+	font-size:1.40vw;
+	height:3vw;
+
+	background: #104E8B;
+	color:#fff;
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	transition: .3s;
+}
+
+#btnCad:hover{
+	cursor: pointer;
+	background:none;
+	color:#104E8B;
+	border: solid 0.10vw #104E8B;
+}
+
+a.aBtn{
+	text-decoration: none;
+}
+
+.msgScreen{
+		position:fixed;
+		width:30vw;
+		height:5vw;
+		border-radius:0.30vw;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		z-index:99999;
+		font-size:1.50vw;
+		line-height:2.10vw;
+		box-shadow: 0 0 1vw #000;
+		color:#fff;
+		font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	}
+
+#deletadoMsg{
+	background: #8B0000;
+}
+
+#cadSucMsg{
+	background:	#008B45;
+}
+
+#editSucMsg{
+	background:	#008B45;
+}

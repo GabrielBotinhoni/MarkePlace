@@ -1,0 +1,16 @@
+body{
+	/*Zerando configurações de margem e padding*/
+	margin: 0;
+	padding: 0;
+}
+
+#imgContent{
+	
+	margin-top: 50px;
+	width: 100%;
+	height: 600px;
+
+	background: url("../img/imgHome.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}

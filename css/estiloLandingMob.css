@@ -1,0 +1,384 @@
+@media(max-width:480px){
+	body{
+		font-size:5vw;
+	}
+
+	#leftContent{
+		font-size:5vw;
+
+		top:0%;
+		transform: translateY(0%);
+
+		padding-left:5vw;
+	}
+
+	#leftContent img{
+		width:60vw;
+
+		
+		margin-top:4vw;
+	}
+
+	#leftContent img#graphics{
+		display: none;
+	}
+
+	.quadro{
+		width:89vw;
+		height:110vw;
+
+		left:50%;
+		top:50%;
+		transform:translate(-50%, -50%);
+
+		border-radius: 0.70vw;
+
+		margin-top:26vw;
+	}
+
+	.contentLanding{
+		position:absolute;
+
+		left:50%;
+		top:50%;
+		transform:translate(-50%, -50%);
+
+		font-size:5vw;
+
+		width:85vw;
+
+		margin-top:18vw;
+	}
+
+	.contentLanding h2{
+		font-size:7vw;
+	}
+
+	.contentLanding td{
+		font-size:5vw;
+	}
+
+	.contentLanding input[type=text], input[type=email],select{
+		height:7vw;
+		width:40vw;
+
+		font-size:5vw;
+
+		padding-left:0.20vw;
+		padding-right:0.20vw;
+
+		transition: none;
+	}
+
+	.contentLanding select{
+		width:40vw;
+	}
+
+	.btns{
+		margin-top:5vw;
+	}
+
+	input[type=submit]{
+		margin-top:3vw;
+
+		font-size:5vw;
+
+		border:none;
+
+		height:8vw;
+		width:27vw;
+
+		cursor:pointer;
+
+		color:#fff;
+		background:#CD0000;
+
+		transition:.3s;
+
+		border-radius:0.20vw;
+	}
+
+	input[type=submit]:hover{
+		background:#F3322E;
+	}
+
+	.container{
+		font-size: 5vw;
+	}
+
+	.checkmark {
+	  
+	  height:5vw;
+	  width: 5vw;
+	}
+
+	.container .checkmark:after {
+	  left: 1vw;
+	  top: 0.80vw;
+	  width: 2vw;
+	  height: 2vw;
+	  border: solid white;
+	  border-width: 0 0.25vw 0.25vw 0;
+	  -webkit-transform: rotate(45deg);
+	  -ms-transform: rotate(45deg);
+	  transform: rotate(45deg);
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+	body{
+		font-size:3vw;
+	}
+
+	#leftContent{
+		font-size:3vw;
+
+		top:0%;
+		transform: translateY(0%);
+
+		padding-left:5vw;
+	}
+
+	#leftContent img{
+		width:60vw;
+
+		
+		margin-top:4vw;
+	}
+
+	#leftContent img#graphics{
+		display: none;
+	}
+
+	.quadro{
+		width:89vw;
+		height:70vw;
+
+		left:50%;
+		top:90%;
+		transform:translate(-50%, -50%);
+
+		border-radius: 0.70vw;
+
+		margin-top:26vw;
+	}
+
+	.contentLanding{
+		position:absolute;
+
+		left:50%;
+		top:100%;
+		transform:translate(-50%, -50%);
+
+		font-size:3vw;
+
+		width:85vw;
+
+		margin-top:18vw;
+	}
+
+	.contentLanding h2{
+		font-size:5vw;
+	}
+
+	.contentLanding td{
+		font-size:3vw;
+	}
+
+	.contentLanding input[type=text], input[type=email],select{
+		height:7vw;
+		width:40vw;
+
+		font-size:3vw;
+
+		padding-left:0.20vw;
+		padding-right:0.20vw;
+
+		transition: none;
+	}
+
+	.contentLanding select{
+		width:40vw;
+	}
+
+	.btns{
+		margin-top:3vw;
+	}
+
+	input[type=submit]{
+		margin-top:3vw;
+
+		font-size:3vw;
+
+		border:none;
+
+		height:8vw;
+		width:27vw;
+
+		cursor:pointer;
+
+		color:#fff;
+		background:#CD0000;
+
+		transition:.3s;
+
+		border-radius:0.20vw;
+	}
+
+	input[type=submit]:hover{
+		background:#F3322E;
+	}
+
+	.container{
+		font-size: 3vw;
+	}
+
+	.checkmark {
+	  
+	  height:5vw;
+	  width: 5vw;
+	}
+
+	.container .checkmark:after {
+	  left: 1vw;
+	  top: 0.80vw;
+	  width: 2vw;
+	  height: 2vw;
+	  border: solid white;
+	  border-width: 0 0.25vw 0.25vw 0;
+	  -webkit-transform: rotate(45deg);
+	  -ms-transform: rotate(45deg);
+	  transform: rotate(45deg);
+	}
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5){
+  	body{
+		font-size:5vw;
+	}
+
+	#leftContent{
+		font-size:5vw;
+
+		top:0%;
+		transform: translateY(0%);
+
+		padding-left:5vw;
+	}
+
+	#leftContent img{
+		width:60vw;
+
+		
+		margin-top:4vw;
+	}
+
+	#leftContent img#graphics{
+		display: none;
+	}
+
+	.quadro{
+		width:89vw;
+		height:110vw;
+
+		left:50%;
+		top:50%;
+		transform:translate(-50%, -50%);
+
+		border-radius: 0.70vw;
+
+		margin-top:50vw;
+	}
+
+	.contentLanding{
+		position:absolute;
+
+		left:50%;
+		top:50%;
+		transform:translate(-50%, -50%);
+
+		font-size:5vw;
+
+		width:85vw;
+
+		margin-top:47vw;
+	}
+
+	.contentLanding h2{
+		font-size:7vw;
+	}
+
+	.contentLanding td{
+		font-size:5vw;
+	}
+
+	.contentLanding input[type=text], input[type=email],select{
+		height:7vw;
+		width:40vw;
+
+		font-size:5vw;
+
+		padding-left:0.20vw;
+		padding-right:0.20vw;
+
+		transition: none;
+	}
+
+	.contentLanding select{
+		width:40vw;
+	}
+
+	.btns{
+		margin-top:5vw;
+	}
+
+	input[type=submit]{
+		margin-top:3vw;
+
+		font-size:5vw;
+
+		border:none;
+
+		height:8vw;
+		width:27vw;
+
+		cursor:pointer;
+
+		color:#fff;
+		background:#CD0000;
+
+		transition:.3s;
+
+		border-radius:0.20vw;
+	}
+
+	input[type=submit]:hover{
+		background:#F3322E;
+	}
+
+	.container{
+		font-size: 5vw;
+	}
+
+	.checkmark {
+	  
+	  height:5vw;
+	  width: 5vw;
+	}
+
+	.container .checkmark:after {
+	  left: 1vw;
+	  top: 0.80vw;
+	  width: 2vw;
+	  height: 2vw;
+	  border: solid white;
+	  border-width: 0 0.25vw 0.25vw 0;
+	  -webkit-transform: rotate(45deg);
+	  -ms-transform: rotate(45deg);
+	  transform: rotate(45deg);
+	}
+}

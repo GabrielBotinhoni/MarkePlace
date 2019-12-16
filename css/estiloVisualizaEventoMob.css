@@ -1,0 +1,410 @@
+@media(max-width:480px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	#quadro1{
+		width:90vw;
+		height:36vw;
+
+		border-radius:0.70vw;
+
+		box-shadow: 0 0 2vw #000;
+	}
+
+	#PnCad{
+		font-size:5vw;
+		display:block;
+	}
+
+	#btnIrCadEv{
+		font-size:5vw;
+		height:10vw;
+		margin-top:4vw;
+	}
+
+	input[type=button]{
+		background:#1874CD;
+		transition:none;
+	}
+
+	input[type=button]:hover{
+		background:#1874CD;
+		color:#000;
+	}
+
+	input[type=button]:active{
+		background:#104E8B;
+		color:#fff;
+	}
+
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 16vw;
+		height:16vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 0.50vw;
+		margin-top: 1vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#contentTable{
+		margin-top:20vw;
+		width:91%;
+		font-size:5vw;
+	}
+
+	select{
+		font-size:5vw;
+		height:7vw;
+		width:15vw;
+	}
+
+
+	input[type=search]{
+		font-size:5vw;
+		height:7vw;
+		width:25vw;
+	}
+
+	#contentTable table{
+			
+	}
+
+	.noneMob{
+		display:none;
+	}
+
+	#contentTable h2{
+		font-size:5vw;
+	}
+
+	#contentTable table img{
+		width:25vw;
+		height:25vw;
+	}
+
+	#contentTable table tr, #contentTable table td{
+		
+	}
+
+	#contentTable th, #contentTable td{
+		font-size:5vw;
+	}
+
+	#contentTable table td.dataTables_empty{
+		line-height:20vw;
+		height:20vw;
+	}
+
+	input[type=button]{
+		font-size:4.20vw;
+		height:7vw;
+	}
+
+	input[type=button]:hover{
+		background:#1874CD;
+		color:black;
+	}
+
+	input[type=button]:active{
+		background:#104E8B;
+		color:#FFF;
+	}
+
+	.GetNothingDesktop{
+		display:block;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	#quadro1{
+		width:70vw;
+		height:27vw;
+
+		border-radius:0.70vw;
+
+		box-shadow: 0 0 2vw #000;
+	}
+
+	#PnCad{
+		font-size:4vw;
+		display:block;
+	}
+
+	#btnIrCadEv{
+		font-size:4vw;
+		height:10vw;
+		margin-top:4vw;
+	}
+
+	input[type=button]{
+		background:#1874CD;
+		transition:none;
+	}
+
+	input[type=button]:hover{
+		background:#1874CD;
+		color:#000;
+	}
+
+	input[type=button]:active{
+		background:#104E8B;
+		color:#fff;
+	}
+
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 11vw;
+		height:11vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 1vw;
+		margin-top: -0.40vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#contentTable{
+		margin-top:20vw;
+		width:91%;
+		font-size:4vw;
+	}
+
+	select{
+		font-size:4vw;
+		height:7vw;
+		width:15vw;
+	}
+
+
+	input[type=search]{
+		font-size:4vw;
+		height:7vw;
+		width:25vw;
+	}
+
+	#contentTable table{
+			
+	}
+
+	.noneMob{
+		display:none;
+	}
+
+	#contentTable h2{
+		font-size:4vw;
+	}
+
+	#contentTable table img{
+		width:25vw;
+		height:25vw;
+	}
+
+	#contentTable table tr, #contentTable table td{
+		
+	}
+
+	#contentTable th, #contentTable td{
+		font-size:4vw;
+	}
+
+	#contentTable table td.dataTables_empty{
+		line-height:20vw;
+		height:20vw;
+	}
+
+	input[type=button]{
+		font-size:4vw;
+		height:7vw;
+	}
+
+	input[type=button]:hover{
+		background:#1874CD;
+		color:black;
+	}
+
+	input[type=button]:active{
+		background:#104E8B;
+		color:#FFF;
+	}
+
+	.GetNothingDesktop{
+		display:block;
+	}
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5){
+  	body{
+		margin:0;
+		padding:0;
+	}
+
+	#quadro1{
+		width:70vw;
+		height:34vw;
+
+		border-radius:0.70vw;
+
+		box-shadow: 0 0 2vw #000;
+	}
+
+	#PnCad{
+		font-size:5vw;
+		display:block;
+	}
+
+	#btnIrCadEv{
+		font-size:5vw;
+		height:10vw;
+		margin-top:4vw;
+	}
+
+	input[type=button]{
+		background:#1874CD;
+		transition:none;
+	}
+
+	input[type=button]:hover{
+		background:#1874CD;
+		color:#000;
+	}
+
+	input[type=button]:active{
+		background:#104E8B;
+		color:#fff;
+	}
+
+	#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 16vw;
+		height:16vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 0.50vw;
+		margin-top: -0.50vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#contentTable{
+		margin-top:20vw;
+		width:91%;
+		font-size:5vw;
+	}
+
+	select{
+		font-size:5vw;
+		height:7vw;
+		width:15vw;
+	}
+
+
+	input[type=search]{
+		font-size:5vw;
+		height:7vw;
+		width:25vw;
+	}
+
+	#contentTable table{
+			
+	}
+
+	.noneMob{
+		display:none;
+	}
+
+	#contentTable h2{
+		font-size:5vw;
+	}
+
+	#contentTable table img{
+		width:25vw;
+		height:25vw;
+	}
+
+	#contentTable table tr, #contentTable table td{
+		
+	}
+
+	#contentTable th, #contentTable td{
+		font-size:5vw;
+	}
+
+	#contentTable table td.dataTables_empty{
+		line-height:20vw;
+		height:20vw;
+	}
+
+	input[type=button]{
+		font-size:5vw;
+		height:7vw;
+	}
+
+	input[type=button]:hover{
+		background:#1874CD;
+		color:black;
+	}
+
+	input[type=button]:active{
+		background:#104E8B;
+		color:#FFF;
+	}
+
+	.GetNothingDesktop{
+		display:block;
+	}
+
+	
+}

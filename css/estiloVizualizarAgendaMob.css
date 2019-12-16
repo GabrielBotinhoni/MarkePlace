@@ -1,0 +1,283 @@
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) { 
+    body{
+	padding:0;
+	margin:0;
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	background: url("../img/adm/backFlo1.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 16vw;
+		height:16vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 0.50vw;
+		margin-top: 0.50vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+#quadro{
+	background: #fff;
+
+	border-radius:0.30vw;
+
+	width:89vw;
+	height:130vw;
+
+	position:absolute;
+
+	top:52%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.bodyContainer{
+
+	position:absolute;
+
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.bodyContainer h2{
+	font-size:9vw;
+}
+
+.bodyContainer p{
+	font-size:5vw;
+	white-space: nowrap;
+}
+
+.bodyContainer button[type=button]{
+	margin-top:2vw;
+
+	border-radius:0.30vw;
+	border:none;
+
+	width:67vw;
+	height:11vw;
+
+	font-size:5vw;
+
+	background:#8B0000;
+
+	transition:.3s;
+}
+
+.bodyContainer button[type=button]:hover{
+	background:#CD0000;
+}
+}
+ 
+/* Telefones em paisagem a tablet em retrato */
+@media (min-width: 481px) and (max-width: 767px){
+	body{
+	padding:0;
+	margin:0;
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	background: url("../img/adm/backFlo1.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 11vw;
+		height:11vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 1vw;
+		margin-top: -0.40vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+#quadro{
+	background: #fff;
+
+	border-radius:0.30vw;
+
+	width:70vw;
+	height:100vw;
+
+	position:absolute;
+
+	top:52%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.bodyContainer{
+
+	position:absolute;
+
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+	margin-top:12vw;
+}
+
+.bodyContainer h2{
+	font-size:5vw;
+}
+
+.bodyContainer p{
+	font-size:3vw;
+	white-space: nowrap;
+}
+
+.bodyContainer button[type=button]{
+	margin-top:2vw;
+
+	border-radius:0.30vw;
+	border:none;
+
+	width:50vw;
+	height:7vw;
+
+	font-size:3vw;
+
+	background:#8B0000;
+
+	transition:.3s;
+}
+
+.bodyContainer button[type=button]:hover{
+	background:#CD0000;
+}
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+  	body{
+	padding:0;
+	margin:0;
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	background: url("../img/adm/backFlo1.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+#back{
+		/*Altura e largura do botão definidas em VW para a responsividade*/
+		width: 11vw;
+		height:11vw;
+
+		/*Localizando botão no fundo*/
+		margin-left: 1vw;
+		margin-top: -0.40vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+#quadro{
+	background: #fff;
+
+	border-radius:0.30vw;
+
+	width:89vw;
+	height:100vw;
+
+	position:absolute;
+
+	top:52%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.bodyContainer{
+
+	position:absolute;
+
+	top:40%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+	margin-top:12vw;
+}
+
+.bodyContainer h2{
+	font-size:7vw;
+}
+
+.bodyContainer p{
+	font-size:4vw;
+	white-space: nowrap;
+}
+
+.bodyContainer button[type=button]{
+	margin-top:2vw;
+
+	border-radius:0.30vw;
+	border:none;
+
+	width:70vw;
+	height:10vw;
+
+	font-size:4vw;
+
+	background:#8B0000;
+
+	transition:.3s;
+}
+
+.bodyContainer button[type=button]:hover{
+	background:#CD0000;
+}
+}

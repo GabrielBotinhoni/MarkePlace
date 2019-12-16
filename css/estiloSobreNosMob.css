@@ -1,0 +1,401 @@
+/*
+	Telefones em paisagem e abaixo
+	@media (max-width: 480px)
+	
+	Telefones em paisagem a tablet em retrato
+	@media (max-width: 767px)
+
+	Tablet em retrato a paisagem e desktop
+	@media (min-width: 768px) and (max-width: 979px)
+*/
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) { 
+    html, body{
+		margin:0;
+		padding:0;
+	}
+
+	.menuHome{
+		/*Posição do menu*/
+		position: absolute;
+
+		/*Configurações de altura e largura do menu*/
+		width: 100%;
+		height: 18vw;
+
+		/*Cor da div*/
+		background: black;
+
+		/*Maior prioridade para aparecer na frente de outras divs*/
+		z-index: 100;
+	}
+
+	.menuHome img{
+		margin-top:4vw;
+		margin-left:2vw;
+		width: auto;
+		height:10vw;
+		position: absolute;
+		cursor: pointer;
+	}
+
+	/*Conteudo (links e btns) do menu*/
+	#contentLink{
+		display:none;
+	}
+
+	#menuMob{
+		margin-top:-1vw;
+		display: block;
+		z-index:200;
+	}
+
+	#menuMob img{
+		width: 20vw;
+		height:20vw;
+
+		margin-left:80%;
+		margin-top:-4.50vw;
+		position: absolute;
+	}
+
+	#menuMob img:active{
+		content: url("../img/logo/menuIconAct.png");
+	}
+
+	.quadroTransp{
+		position: absolute;
+		width:60vw;
+		height:60vw;
+		background:white;
+		margin-left:20vw;
+		border-radius:1vw;
+		display: none;	
+	}
+
+	#menuMob .menuList{
+		width: 40vw;
+		margin-left:20vw;
+		margin-top:4.60vw;
+	}
+
+	#menuMob .menuList a li{
+		top:0vw;
+		width:100%;
+		list-style: none;
+		position: relative;
+		display: none;
+	}
+
+	#menuMob .menuList a li{
+		font-size: 5.70vw;
+		color: black;
+	}
+
+	#quadro{
+		margin-top:20vw;
+		width:89vw;
+		border-radius:1vw;
+		height:310vw;
+	}
+
+	#contetSN{
+		margin-top:20vw;
+		width:70vw;
+	}
+
+	#contetSN h1{
+		font-size:9vw;
+	}
+
+	#contetSN p{
+		font-size:5.40vw;
+	}
+
+	#contetSN li{
+		font-size:5.40vw;
+	}
+
+	#infoInferior{
+		margin-top:325vw;
+		height:15vw;
+		text-align: center;
+	
+	}
+
+	#infoInferior p{
+		font-size: 5vw;
+	}
+}
+ 
+/* Telefones em paisagem a tablet em retrato */
+@media (min-width: 481px) and (max-width: 768px){
+	html, body{
+		margin:0;
+		padding:0;
+	}
+
+	.menuHome{
+		/*Posição do menu*/
+		position: absolute;
+
+		/*Configurações de altura e largura do menu*/
+		width: 100%;
+		height: 10vw;
+
+		/*Cor da div*/
+		background: black;
+
+		/*Maior prioridade para aparecer na frente de outras divs*/
+		z-index: 100;
+	}
+
+	.menuHome img{
+		margin-top:1vw;
+		margin-left:2vw;
+		width: auto;
+		height:8.60vw;
+		position: absolute;
+		cursor: pointer;
+	}
+
+	/*Conteudo (links e btns) do menu*/
+	#contentLink{
+		display:none;
+	}
+
+	#menuMob{
+		margin-top:-2vw;
+		display: block;
+		z-index:200;
+	}
+
+	#menuMob img{
+		width: 14vw;
+		height:14vw;
+
+		margin-left:80%;
+		margin-top:-4.50vw;
+		position: absolute;
+	}
+
+	#menuMob img:active{
+		content: url("../img/logo/menuIconAct.png");
+	}
+
+	.quadroTransp{
+		position: absolute;
+		width:33vw;
+		height:33vw;
+		background:white;
+		margin-left:47vw;
+		border-radius:1vw;
+		display: none;	
+	}
+
+	#menuMob .menuList{
+		width: 40vw;
+		margin-left:42vw;
+		margin-top:4.60vw;
+	}
+
+	#menuMob .menuList a li{
+		top:0vw;
+		width:100%;
+		list-style: none;
+		position: relative;
+		display: none;
+	}
+
+	#menuMob .menuList a li{
+		font-size: 3.60vw;
+		color: black;
+	}
+
+	#quadro{
+		margin-top:15vw;
+		width:89vw;
+		border-radius:1vw;
+		height:140vw;
+	}
+
+	#contetSN{
+		margin-top:12vw;
+		width:70vw;
+	}
+
+	#contetSN h1{
+		font-size:6vw;
+	}
+
+	#contetSN p{
+		font-size:3.30vw;
+	}
+
+	#contetSN li{
+		font-size:3.30vw;
+	}
+
+	#infoInferior{
+		margin-top:150vw;
+		height:10vw;
+		text-align: center;
+	
+	}
+
+	#infoInferior p{
+		font-size: 3.30vw;
+	}
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+  	html, body{
+		margin:0;
+		padding:0;
+	}
+
+	.menuHome{
+		/*Posição do menu*/
+		position: absolute;
+
+		/*Configurações de altura e largura do menu*/
+		width: 100%;
+		height: 15vw;
+
+		/*Cor da div*/
+		background: black;
+
+		/*Maior prioridade para aparecer na frente de outras divs*/
+		z-index: 100;
+	}
+
+	.menuHome img{
+		margin-top:2vw;
+		margin-left:2vw;
+		width: auto;
+		height:11vw;
+		position: absolute;
+		cursor: pointer;
+	}
+
+	/*Conteudo (links e btns) do menu*/
+	#contentLink{
+		display:none;
+	}
+
+	#menuMob{
+		margin-top:-2vw;
+		display: block;
+		z-index:200;
+	}
+
+	#menuMob img{
+		width: 17vw;
+		height:17vw;
+
+		margin-left:80%;
+		margin-top:-4.50vw;
+		position: absolute;
+	}
+
+	#menuMob img:active{
+		content: url("../img/logo/menuIconAct.png");
+	}
+
+	.quadroTransp{
+		position: absolute;
+		width:44vw;
+		height:44vw;
+		background:white;
+		margin-left:38vw;
+		border-radius:1vw;
+		display: none;	
+	}
+
+	#menuMob .menuList{
+		width: 40vw;
+		margin-left:42vw;
+		margin-top:4.60vw;
+	}
+
+	#menuMob .menuList a{
+		width:100%;
+		list-style: none;
+		position: relative;
+		display: none;
+		top:5vw;
+	}
+
+	#menuMob .menuList a{
+		font-size: 3.60vw;
+		color: black;
+	}
+
+	.quadroTransp{
+		position: absolute;
+		width:33vw;
+		height:33vw;
+		background:white;
+		margin-left:47vw;
+		border-radius:1vw;
+		display: none;	
+	}
+
+	#menuMob .menuList{
+		width: 40vw;
+		margin-left:42vw;
+		margin-top:4.60vw;
+	}
+
+	#menuMob .menuList a li{
+		top:0vw;
+		width:100%;
+		list-style: none;
+		position: relative;
+		display: none;
+	}
+
+	#menuMob .menuList a li{
+		font-size: 3.60vw;
+		color: black;
+	}
+
+	#quadro{
+		margin-top:20vw;
+		width:89vw;
+		border-radius:1vw;
+		height:162vw;
+	}
+
+	#contetSN{
+		margin-top:22vw;
+		width:70vw;
+	}
+
+	#contetSN h1{
+		font-size:6vw;
+	}
+
+	#contetSN p{
+		font-size:4vw;
+	}
+
+	#contetSN li{
+		font-size:4vw;
+	}
+
+	#infoInferior{
+		margin-top:180vw;
+		height:10vw;
+		text-align: center;
+	
+	}
+
+	#infoInferior p{
+		font-size: 3.30vw;
+	}
+}

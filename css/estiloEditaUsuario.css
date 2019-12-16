@@ -1,0 +1,128 @@
+body{
+	/*Zerando o padding e a margem*/
+	padding:0;
+	margin:0;
+
+	background:url("../img/adm/backSunset.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+}
+
+#back{
+	/*Definindo posição*/
+	position: fixed;
+
+	/*Altura e largura do botão*/
+	width: 4.50vw;
+	height:4.50vw;
+
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/back.png");
+	background-size: 100%;
+
+	/*Localizando botão no fundo*/
+	margin-left: 1.50vw;
+	margin-top: -0.10vw;
+
+	/*Tempo de transição*/
+	transition: .4s;
+
+	/*Deixando este objeto por cima de todos objetos*/
+	z-index:1000;
+}
+
+#back:hover{
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/backHover.png");
+	background-size: 100%;
+}
+
+#quadro{
+	position:absolute;
+
+	top:53%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+	background: #fff;
+
+	width:40vw;
+	height:35vw;
+
+	border-radius:0.30vw;
+
+	box-shadow: 0 0 1vw #000;
+}
+
+#contentAll{
+	position:absolute;
+
+	top:52%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+#contentAll h2{
+	font-size:2vw;
+	margin-left:6vw;
+}
+
+#contentAll img{
+	position:absolute;
+
+	width:3vw;
+
+	margin-left:21.20vw;
+	margin-top:-4.50vw;
+}
+
+#contentAll form table td{
+	font-size:1.30vw;
+}
+
+#contentAll form table td input[type=text], #contentAll form table td input[type=email]{
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	height:2.20vw;
+	width:25vw;
+
+	font-size:1.30vw;
+
+	border-radius: 0.30vw;
+	border: #000 solid 0.10vw;
+
+	padding:0.15vw;
+
+	transition: .5s;
+}
+
+#contentAll form table td input[type=text]:focus, #contentAll form table td input[type=email]:focus{
+	background: #1C1C1C;
+	color: #fff;
+}
+
+#contentAll input[type=submit]{
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size:1.10vw;
+
+	background: #CD0000;
+	color:#fff;
+
+	border:none;
+	border-radius:0.30vw;
+
+	width:30vw;
+	height:3vw;
+
+	cursor:pointer;
+
+	margin-top:2vw;
+
+	transition: .3s;
+}
+
+#contentAll input[type=submit]:hover{
+	background:rgb(139, 0, 0);
+}

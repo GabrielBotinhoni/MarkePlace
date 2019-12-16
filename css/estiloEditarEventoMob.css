@@ -1,0 +1,359 @@
+@media(max-width:480px){
+	html, body{
+		margin:0;
+		padding:0;
+		background:#fff;
+	}
+
+	#quadro{
+		display:none;
+	}
+
+	#back{
+		/*Altura e largura do botão*/
+		width: 10vw;
+		height:10vw;
+
+		/*Tempo de transição*/
+		transition: none;
+
+		margin-top:2vw;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#contentPage{
+		position:absolute;
+		top:65%;
+		left:50%;
+		transform: translate(-50%, -50%);
+
+		font-size:5vw;
+	}
+
+	#contentPage h1{
+		font-size:9vw;
+	}
+
+	td{
+	    font-size: 5vw;
+	}
+
+	input[type=text], textarea, input[type=date]{
+	    font-size:5vw;
+
+	    transition:none;
+
+	     width:60vw;
+	}
+
+	input[type=text]:focus, textarea:focus, input[type=date]:focus{
+	    background:#1C1C1C
+	}
+
+	input[type=text], input[type=date]{
+	    height:10vw;
+	}
+
+	div#nomeArquivo{
+	    width: 59vw;
+	    padding:0.70vw 0.70vw;
+
+	}
+
+	div#nomeArquivo img{
+	    float:right;
+	    width:10vw;
+	}
+
+	.zoom img {
+	    max-width: 60vw;
+	    -moz-transition: none;
+	    -webkit-transition: none;
+	    transition: none;
+
+	    width:60vw;
+	    height:40vw;
+	}
+
+	.zoom:hover img {
+	    -moz-transform: none;
+	    -webkit-transform: none;
+	    transform: none;
+	}
+
+	button[type=submit]{
+	    width: 60vw;
+	    height:10vw;
+	    
+	    transition:none;
+	    font-size:5vw;
+
+	    background:#CD0000;
+	    color:#fff;
+	}
+
+	button[type=submit]:hover{
+		background:#CD0000;
+	    color:#fff;
+	}
+
+	button[type=submit]:active{
+		background:#8B0000;
+	}
+
+	.noneMob{
+	    display:none;
+	}
+
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+	html, body{
+		margin:0;
+		padding:0;
+		background:#fff;
+	}
+
+	#quadro{
+		display:none;
+	}
+
+	#back{
+		/*Altura e largura do botão*/
+		width: 10vw;
+		height:10vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#contentPage{
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%, -50%);
+
+		font-size:3vw;
+
+		margin-top:45vw;
+	}
+
+	#contentPage h1{
+		font-size:5vw;
+	}
+
+	td{
+	    font-size: 3vw;
+	}
+
+	input[type=text], textarea, input[type=date]{
+	    font-size:3vw;
+
+	    transition:none;
+
+	     width:60vw;
+	}
+
+	input[type=text]:focus, textarea:focus, input[type=date]:focus{
+	    background:#1C1C1C
+	}
+
+	input[type=text], input[type=date]{
+	    height:5vw;
+	}
+
+	div#nomeArquivo{
+	    width: 59vw;
+	    padding:0.70vw 0.70vw;
+
+	}
+
+	div#nomeArquivo img{
+	    float:right;
+	    width:vw;
+	}
+
+	.zoom img {
+	    max-width: 60vw;
+	    -moz-transition: none;
+	    -webkit-transition: none;
+	    transition: none;
+
+	    width:60vw;
+	    height:40vw;
+	}
+
+	.zoom:hover img {
+	    -moz-transform: none;
+	    -webkit-transform: none;
+	    transform: none;
+	}
+
+	button[type=submit]{
+	    width: 60vw;
+	    height:6vw;
+	    
+	    transition:none;
+	    font-size:3vw;
+
+	    background:#CD0000;
+	    color:#fff;
+	}
+
+	button[type=submit]:hover{
+		background:#CD0000;
+	    color:#fff;
+	}
+
+	button[type=submit]:active{
+		background:#8B0000;
+	}
+
+	.noneMob{
+	    display:none;
+	}
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5){
+  	html, body{
+		margin:0;
+		padding:0;
+		background:#fff;
+	}
+
+	#quadro{
+		display:none;
+	}
+
+	#back{
+		/*Altura e largura do botão*/
+		width: 14vw;
+		height:14vw;
+
+		/*Tempo de transição*/
+		transition: none;
+	}
+
+	#back:hover{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/back.png");
+		background-size: 100%;
+	}
+
+	#back:active{
+		/*Configurações da imagem do botão*/
+		background: url("../img/backButton/backHover.png");
+		background-size: 100%;
+	}
+
+	#contentPage{
+		position:absolute;
+		top:75%;
+		left:50%;
+		transform: translate(-50%, -50%);
+
+		font-size:5vw;
+	}
+
+	#contentPage h1{
+		font-size:9vw;
+	}
+
+	td{
+	    font-size: 5vw;
+	}
+
+	input[type=text], textarea, input[type=date]{
+	    font-size:5vw;
+
+	    transition:none;
+
+	     width:60vw;
+	}
+
+	input[type=text]:focus, textarea:focus, input[type=date]:focus{
+	    background:#1C1C1C
+	}
+
+	input[type=text], input[type=date]{
+	    height:10vw;
+	}
+
+	div#nomeArquivo{
+	    width: 59vw;
+	    padding:0.70vw 0.70vw;
+
+	}
+
+	div#nomeArquivo img{
+	    float:right;
+	    width:10vw;
+	}
+
+	.zoom img {
+	    max-width: 60vw;
+	    -moz-transition: none;
+	    -webkit-transition: none;
+	    transition: none;
+
+	    width:60vw;
+	    height:40vw;
+	}
+
+	.zoom:hover img {
+	    -moz-transform: none;
+	    -webkit-transform: none;
+	    transform: none;
+	}
+
+	button[type=submit]{
+	    width: 60vw;
+	    height:10vw;
+	    
+	    transition:none;
+	    font-size:5vw;
+
+	    background:#CD0000;
+	    color:#fff;
+	}
+
+	button[type=submit]:hover{
+		background:#CD0000;
+	    color:#fff;
+	}
+
+	button[type=submit]:active{
+		background:#8B0000;
+	}
+
+	.noneMob{
+	    display:none;
+	}
+}

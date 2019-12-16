@@ -1,0 +1,90 @@
+body{
+	padding:0;
+	margin:0;
+
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	background: url("../img/adm/backFlo1.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+#back{
+	/*Definindo posição*/
+	position: absolute;
+
+	/*Altura e largura do botão*/
+	width: 4.50vw;
+	height:4.50vw;
+
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/back.png");
+	background-size: 100%;
+
+	/*Localizando botão no fundo*/
+	margin-left: 1.50vw;
+	margin-top: 0vw;
+
+	/*Tempo de transição*/
+	transition: .4s;
+
+	z-index:100;
+}
+
+#back:hover{
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/backHover.png");
+	background-size: 100%;
+}
+
+#quadro{
+	background: #fff;
+
+	border-radius:0.30vw;
+
+	width:40vw;
+	height:40vw;
+
+	position:absolute;
+
+	top:52%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.bodyContainer{
+
+	position:absolute;
+
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.bodyContainer h2{
+	font-size:2vw;
+}
+
+.bodyContainer p{
+	font-size:1.30vw;
+}
+
+.bodyContainer button[type=button]{
+	margin-top:2vw;
+
+	border-radius:0.30vw;
+	border:none;
+
+	width:30vw;
+	height:3.50vw;
+
+	font-size:1.20vw;
+
+	background:#8B0000;
+
+	transition:.3s;
+}
+
+.bodyContainer button[type=button]:hover{
+	background:#CD0000;
+}

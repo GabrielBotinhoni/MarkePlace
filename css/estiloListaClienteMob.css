@@ -1,0 +1,393 @@
+@media(max-width:480px){
+	body{
+		margin:0;
+		padding:0;
+	}
+
+	#containerLista{
+		margin-top:20vw;
+
+	    font-size: 5.10vw;
+
+	    width: 89%;
+	    height:auto;
+
+	    padding:6vw;
+	    padding-bottom:3vw;
+
+	    border-radius:0.40vw;
+
+	    box-shadow: 0 0 2vw #111;
+
+	}
+
+	select{
+		width:13vw;
+		height:8vw;
+
+		font-size: 5vw;
+	}
+
+	input[type=search]{
+		height:5.50vw;
+		width: 30vw;
+
+		font-size: 5vw;
+
+	}
+
+	table{
+		width:100%;
+	}
+
+	table th{
+		font-size: 5.10vw;
+	}
+
+	table td{
+		font-size: 5.10vw;
+	}
+
+	.noneMob{
+		display:none;
+	}
+
+	.aBtn{
+		margin-left: 1vw;
+	}
+
+	.inputBtn{
+		border: none;
+		font-size:5vw;
+		height:12vw;
+		transition: none;
+
+		margin-top:0.10vw;
+	}
+
+	.inputBtn:hover{
+		cursor: pointer;
+		background:#104E8B;
+		color:#fff;
+		border:none;
+	}
+
+	.inputBtn:active{
+		background: #102D61;
+	}
+
+	.tdAcoes{
+		
+	}
+
+	#btnVis{
+		width:32vw;
+		margin-bottom:0.20vw;
+	}
+
+	#btnEve{
+		display:none;
+	}
+
+	#quadroP{
+	   border-radius: 1vw;
+
+	   width:87vw;
+	   height:30vw;
+
+	   box-shadow: 0 0 1vw black;
+	}
+
+	#pNCad{
+		font-size: 4vw;
+	}
+
+	#btnCad{
+		font-size:4vw;
+		height:9vw;
+
+		transition: none;
+	}
+
+	#btnCad:hover{
+		cursor: normal;
+		background:#104E8B;
+		color:#fff;
+		border: none;
+	}
+
+	#btnCad:active{
+		background: #102D61;
+	}
+
+	.msgScreen{
+		width:89vw;
+		height:20vw;
+		font-size:6vw;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+	body{
+		margin:0;
+		padding:0;
+		font-size: 3vw;
+	}
+
+	#containerLista{
+		margin-top:20vw;
+
+	   font-size: 3vw;
+
+	    width: 89%;
+	    height:auto;
+
+	    padding:6vw;
+	    padding-bottom:3vw;
+
+	    border-radius:0.40vw;
+
+	    box-shadow: 0 0 2vw #111;
+
+	}
+
+	select{
+		width:9vw;
+		height:8vw;
+
+		font-size: 3vw;
+	}
+
+	input[type=search]{
+		height:4vw;
+		width: 30vw;
+
+		font-size: 3vw;
+
+	}
+
+	table{
+		width:100%;
+	}
+
+	table th{
+		font-size: 3vw;
+	}
+
+	table td{
+		font-size: 3vw;
+	}
+
+	.noneMob{
+		display:none;
+	}
+
+	.aBtn{
+		margin-left: 1vw;
+	}
+
+	.inputBtn{
+		border: none;
+		font-size: 3vw;
+		height:6vw;
+		transition: none;
+
+		margin-top:0.10vw;
+	}
+
+	.inputBtn:hover{
+		cursor: pointer;
+		background:#104E8B;
+		color:#fff;
+		border:none;
+	}
+
+	.inputBtn:active{
+		background: #102D61;
+	}
+
+	.tdAcoes{
+		
+	}
+
+	#btnVis{
+		font-size: 3vw;
+		width:17vw;
+		margin-bottom:0.20vw;
+	}
+
+	#btnEve{
+		display:none;
+	}
+
+	#quadroP{
+	   border-radius: 1vw;
+
+	   width:87vw;
+	   height:30vw;
+
+	   box-shadow: 0 0 1vw black;
+	}
+
+	#pNCad{
+		font-size: 3vw;
+	}
+
+	#btnCad{
+		font-size: 3vw;
+		height:9vw;
+
+		transition: none;
+	}
+
+	#btnCad:hover{
+		cursor: normal;
+		background:#104E8B;
+		color:#fff;
+		border: none;
+	}
+
+	#btnCad:active{
+		background: #102D61;
+	}
+
+	.msgScreen{
+		width:60vw;
+		height:9vw;
+		font-size:3vw;
+	}
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5){
+  	body{
+		margin:0;
+		padding:0;
+		font-size: 4vw;
+	}
+
+	#containerLista{
+		margin-top:20vw;
+
+	    font-size: 4vw;
+	    width: 89%;
+	    height:auto;
+
+	    padding:6vw;
+	    padding-bottom:3vw;
+
+	    border-radius:0.40vw;
+
+	    box-shadow: 0 0 2vw #111;
+
+	}
+
+	select{
+		width:9vw;
+		height:8vw;
+
+		font-size: 4vw;
+	}
+
+	input[type=search]{
+		height:6vw;
+		width: 30vw;
+
+		font-size: 4vw;
+
+	}
+
+	table{
+		width:100%;
+	}
+
+	table th{
+		font-size: 4vw;
+	}
+
+	table td{
+		font-size: 4vw;
+	}
+
+	.noneMob{
+		display:none;
+	}
+
+	.aBtn{
+		margin-left: 1vw;
+	}
+
+	.inputBtn{
+		border: none;
+		font-size: 4vw;
+		height:8vw;
+		transition: none;
+
+		margin-top:0.10vw;
+	}
+
+	.inputBtn:hover{
+		cursor: pointer;
+		background:#104E8B;
+		color:#fff;
+		border:none;
+	}
+
+	.inputBtn:active{
+		background: #102D61;
+	}
+
+	.tdAcoes{
+		
+	}
+
+	#btnVis{
+		font-size: 4vw;
+		width:30vw;
+		margin-bottom:0.20vw;
+	}
+
+	#btnEve{
+		display:none;
+	}
+
+	#quadroP{
+	   border-radius: 1vw;
+
+	   width:87vw;
+	   height:30vw;
+
+	   box-shadow: 0 0 1vw black;
+	}
+
+	#pNCad{
+		font-size: 4vw;
+	}
+
+	#btnCad{
+		font-size: 4vw;
+		height:9vw;
+
+		transition: none;
+	}
+
+	#btnCad:hover{
+		cursor: normal;
+		background:#104E8B;
+		color:#fff;
+		border: none;
+	}
+
+	#btnCad:active{
+		background: #102D61;
+	}
+
+	.msgScreen{
+		width:89vw;
+		height:20vw;
+		font-size:6vw;
+	}
+}

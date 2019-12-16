@@ -1,0 +1,231 @@
+body{
+	/*Zerando configurações de distância*/
+	margin:  0;
+	padding: 0;
+
+	/*Altura do fundo da tela*/
+	height: 100vh;
+
+	/*Definindo configurações de plano de fundo*/
+	background: url("../img/backgroundLogin/backcanyon.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	
+	/*Configurações de fonte usada na pagina*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	color: #F0FFFF;
+}
+
+/*Botão de voltar para Home-page*/
+#back{
+	/*Definindo posição*/
+	position: absolute;
+
+	/*Altura e largura do botão definidas em VW para a responsividade*/
+	width: 4.5vw;
+	height:4.5vw;
+
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/back.png");
+	background-size: 100%;
+
+	/*Localizando botão no fundo*/
+	margin-left: 1vw;
+	margin-top: 1vw;
+
+	/*Tempo de transição*/
+	transition: .4s;
+}
+
+#back:hover{
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/backHover.png");
+	background-size: 100%;
+}
+
+#quadro{
+	/*Centralizando quadro no centro da tela*/
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    /*Definindo as configurações de largura e altura*/
+    width: 37vw;
+    height:33vw;
+
+    /*Cor do quadro*/
+    background: black;
+
+    /*Borda do quadro*/
+    border-style: solid;
+  	border-width: 0.2vw;
+  	border-color: #fff;    
+}
+
+#contentForm{
+	/*Centralizando objeto no centro da tela*/
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    /*Subindo 2 pixels para centralizar*/
+    margin-top: -0.4vw;
+
+}
+
+h1{  /*Titulo (Login)*/
+	font-size: 3.6vw;
+}
+
+/*inputs*/
+
+input[type=text]{
+	/*Tirando borda padrão dos input do HTML*/
+	border: none;
+
+	/*Definindo as configurações de largura e altura*/
+	width: 24.09vw;
+	height:2.40vw;
+
+	/*Tipo de fonte usada no input*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic'; 
+
+	/*Cores do input*/
+	background-color: #4F4F4F;
+	color: #F0FFFF;
+
+	/*Padding do placeholder e do texto*/
+	padding-left: 0.2vw;
+
+	/*Tamanho da fonte*/
+	font-size: 1.3vw;
+
+	/*Tempo de transição*/
+	transition: .3s;
+}
+
+input[type=text]:focus{
+	background: #C1CDCD;
+	color: black;
+}
+
+input[type=password]{
+	/*Tirando borda padrão dos input do HTML*/
+	border: none;
+
+	/*Definindo as configurações de largura e altura*/
+	width: 24.09vw;
+	height:2.40vw;
+
+	/*Tipo de fonte usada no input*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic'; 
+
+	/*Cores do input*/
+	background-color: #4F4F4F;
+
+	/*Padding do placeholder e do texto*/
+	padding-left: 0.2vw;
+
+	/*Configurações da fonte*/
+	font-size: 1.3vw;
+	color: #F0FFFF;
+
+	/*Tempo de transição*/
+	transition: .3s;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ 	color: #0b0b0b;
+}
+
+input[type=password]:focus{
+	background: #C1CDCD;
+	color: black;
+}
+
+input[type=text]:focus::-webkit-input-placeholder {
+   color: transparent;
+}
+
+input[type=password]:focus::-webkit-input-placeholder {
+   color: transparent;
+}
+
+input[type=submit]{
+	/*Configurações de borda*/
+	border: none;
+
+	/*Definindo as configurações de largura e altura*/
+	width: 24.29vw;
+	height:2.77vw;
+
+	/*Tipo de cursor*/
+	cursor: pointer; 
+
+	/*Tipo de fonte usada no input*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 1.3vw; 
+
+	/*Cores do botão*/
+	background: #CD0000;
+	color: #F0FFFF;
+
+	/*Tempo de transição*/
+	transition: .6s;
+}
+
+input[type=submit]:hover{
+	background: #fff;
+	color: #CD0000;
+}
+
+#msgContent{
+	/*Posição*/
+	position: relative;
+
+	/*Definindo as configurações de largura e altura*/
+	width: 24.29vw;
+	height:2.77vw;
+
+	/*Cores do objeto*/
+	background: #1C1C1C;
+
+	/*Altura do texto em relação a div*/
+	line-height: 2.62vw;
+
+	margin-bottom: 1.23vw;
+
+	/*Tamanho da fonte*/
+	font-size:1.2vw;
+}
+
+a{   /*Link de cadastro*/
+
+	/*Tirando a decoração de texto padrão do HTML*/
+	text-decoration: none;
+
+	/*Cor do link*/
+	color: #CD0000;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#pCadastro{
+	/*Tamanho da fonte*/
+	font-size: 1vw;
+}
+
+#pEsque{
+	/*Tamanho da fonte*/
+	font-size: 1vw;
+}
+
+.brMob{
+	display:none;
+}

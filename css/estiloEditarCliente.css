@@ -1,0 +1,140 @@
+body{
+	/*Zerando a margin e o padding*/
+	padding:0;
+	margin:0;
+
+	/*Configurações de fundo*/
+	background: url("../img/adm/backWood.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#back{
+	/*Definindo posição*/
+	position: absolute;
+
+	/*Altura e largura do botão*/
+	width: 4.50vw;
+	height:4.50vw;
+
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/back.png");
+	background-size: 100%;
+
+	/*Localizando botão no fundo*/
+	margin-left: 1.50vw;
+	margin-top: 0vw;
+
+	/*Tempo de transição*/
+	transition: .4s;
+
+	/*Deixando este objeto por cima de todos objetos*/
+	z-index:1000;
+}
+
+#back:hover{
+	/*Configurações da imagem do botão*/
+	background: url("../img/backButton/backHover.png");
+	background-size: 100%;
+}
+
+#quadro{
+	/*Tipo de posição*/
+	position: absolute;
+
+	/*Altura e largura*/
+    width: 45vw;
+    height: 37vw;
+
+    /*Fundo*/
+    background:	#E8E8E8;
+
+    /*Centralizando div*/
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    /*Sombra do quadro*/
+    box-shadow: 0 0 1vw black;
+
+    margin-top:1.70vw;
+
+    border-radius:0.40vw;
+}
+
+#containerEdit{
+	/*Tipo de posição*/
+	position: absolute;
+
+	/*Fonte*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+
+	/*Centralizando div*/
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    /*Descendo para ficar no centro*/
+    margin-top:0.80vw;
+}
+
+h2{
+	/*Tamanho de fonte*/
+	font-size: 1.74vw;
+}
+
+td p{
+	/*Tamanho de fonte*/
+	font-size:1.20vw;
+}
+
+form input{
+	/*Tirando borda padrão do HTML*/
+	border: none;
+
+	/*Altura e largura*/
+	width: 21.88vw;
+	height: 2.77vw;	
+
+	/*Configurações de fonte*/
+	font-family: 'Montserrat', 'sans-serif', 'Century Gothic';
+	font-size: 1vw;
+
+	/*Espaçamento dentro dos inputs*/
+	padding-left: 0.40vw; padding-right: 0.40vw;
+}
+
+form input[type=text], form input[type=number], form input[type=email]{
+	/*Cor do input*/
+	background: #B5B5B5;
+	color: black;
+
+	transition: .6s;	
+} 
+
+form input[type=text]:focus{background:#828282; color:#fff;}
+form input[type=number]:focus{background:#828282; color:#fff;}
+form input[type=email]:focus{background:#828282; color:#fff;}
+
+#btnEditar{
+	/*Largura do botão*/
+	width: 22.70vw;
+
+	/*Cores do botão*/
+	background: #363636;
+	color: #fff;
+
+	/*Tempo de transição*/
+	transition: .4s;
+}
+
+#btnEditar:hover{
+	/*Tipo de cursor*/
+	cursor: pointer;
+
+	/*Cor de fundo*/
+	background: black;
+}
+
